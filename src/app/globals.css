@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+  --color-primary: #45a0cd; /* Ocean Blue */
+  --color-primary-foreground: #ffffff;
+  --color-accent: #d59704; /* Laser Gold */
+  --color-accent-foreground: #0f172a;
+  --color-background: #070b12; /* Deep Slate Black */
+  --color-foreground: #f8fafc;
+}
+
+:root {
+  --background: #070b12;
+  --foreground: #f8fafc;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Outfit', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Keyframes for Continuous Floating, Spinning & Delicate Pulsing */
+@keyframes float-slow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(2deg);
+  }
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse-delicate {
+  0%, 100% {
+    opacity: 0.15;
+    transform: scale(1) translate(-50%, -50%);
+  }
+  50% {
+    opacity: 0.35;
+    transform: scale(1.06) translate(-50%, -50%);
+  }
+}
+
+.animate-float-slow {
+  animation: float-slow 8s ease-in-out infinite;
+}
+
+.animate-spin-slow {
+  animation: spin-slow 25s linear infinite;
+}
+
+.animate-spin-reverse-slow {
+  animation: spin-slow 35s linear infinite reverse;
+}
+
+.animate-pulse-delicate {
+  animation: pulse-delicate 6s ease-in-out infinite;
+}
+
+/* Premium Refractive Glassmorphism Card Style */
+.optical-card {
+  background: rgba(15, 23, 42, 0.45);
+  border: 1px solid rgba(69, 160, 205, 0.12);
+  backdrop-filter: blur(12px);
+  border-radius: 24px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.optical-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(69, 160, 205, 0.35);
+  box-shadow: 0 16px 48px 0 rgba(69, 160, 205, 0.15);
+  background: rgba(15, 23, 42, 0.7);
+}
+
