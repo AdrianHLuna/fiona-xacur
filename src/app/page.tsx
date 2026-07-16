@@ -279,7 +279,7 @@ export default function Home() {
                     <img 
                       src={disease.image} 
                       alt={disease.name}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-80 group-hover:opacity-100"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent pointer-events-none" />
                   </div>
@@ -329,11 +329,12 @@ export default function Home() {
                   href={`/servicios/${service.slug}`} 
                   className={`optical-card p-6 md:p-8 flex flex-col md:flex-row gap-8 items-center group ${idx % 2 === 1 ? 'md:flex-row-reverse' : ''}`}
                 >
-                  {/* Graphical icon representing clinical process */}
-                  <div className="w-24 h-24 rounded-2xl bg-cyan-950/60 border border-cyan-500/25 flex items-center justify-center text-cyan-400 group-hover:bg-cyan-500/10 transition-all duration-300 shadow-lg shadow-cyan-950/50 flex-shrink-0">
-                    {service.id === 'serv-cirugia-lasik' ? <FaGlasses size={40} className="group-hover:scale-110 transition-transform duration-300" /> : 
-                     service.id === 'serv-cirugia-de-catarata' ? <FaEye size={40} className="group-hover:scale-110 transition-transform duration-300" /> :
-                     <FaMicroscope size={40} className="group-hover:scale-110 transition-transform duration-300" />}
+                  <div className="w-24 h-24 rounded-2xl overflow-hidden border border-cyan-500/25 flex items-center justify-center shadow-lg shadow-cyan-950/50 flex-shrink-0">
+                    <img 
+                      src={service.image} 
+                      alt={service.name}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                    />
                   </div>
                   
                   <div className="flex-grow text-center md:text-left">
@@ -368,15 +369,22 @@ export default function Home() {
           >
             {symptoms.slice(0, 5).map((sym) => (
               <motion.div key={sym.id} variants={fadeUp} className="h-full">
-                <Link href={`/sintomas/${sym.slug}`} className="optical-card p-8 flex flex-col h-full group hover:border-amber-400/30">
-                  <div className="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 mb-6 group-hover:scale-110 transition-transform duration-300">
-                    <FaShieldAlt size={22} />
+                <Link href={`/sintomas/${sym.slug}`} className="optical-card overflow-hidden flex flex-col h-full group hover:border-amber-400/30">
+                  <div className="aspect-video relative overflow-hidden bg-slate-900 border-b border-amber-500/10">
+                    <img 
+                      src={sym.image} 
+                      alt={sym.name}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent pointer-events-none" />
                   </div>
-                  <h3 className="text-lg font-bold text-white mb-3 group-hover:text-cyan-400 transition-colors">{sym.name}</h3>
-                  <p className="text-slate-400 text-xs leading-relaxed mb-6 flex-grow">{sym.description}</p>
-                  <span className="text-cyan-400 font-mono font-bold flex items-center gap-1 uppercase text-[10px] tracking-widest group-hover:text-amber-400 transition-colors mt-auto">
-                    Analizar Causas <span className="group-hover:translate-x-1 transition-transform duration-300">&rarr;</span>
-                  </span>
+                  <div className="p-8 flex flex-col flex-grow">
+                    <h3 className="text-lg font-bold text-white mb-3 group-hover:text-cyan-400 transition-colors">{sym.name}</h3>
+                    <p className="text-slate-400 text-xs leading-relaxed mb-6 flex-grow">{sym.description}</p>
+                    <span className="text-cyan-400 font-mono font-bold flex items-center gap-1 uppercase text-[10px] tracking-widest group-hover:text-amber-400 transition-colors mt-auto">
+                      Analizar Causas <span className="group-hover:translate-x-1 transition-transform duration-300">&rarr;</span>
+                    </span>
+                  </div>
                 </Link>
               </motion.div>
             ))}

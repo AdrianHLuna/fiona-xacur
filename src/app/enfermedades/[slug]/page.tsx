@@ -83,7 +83,7 @@ export default async function DiseasePage({ params }: { params: Promise<{ slug: 
              <img 
                src={disease.image} 
                alt={disease.name}
-               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-80 group-hover:opacity-100"
+               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
              />
              <div className="absolute inset-0 bg-gradient-to-tr from-cyan-950/40 via-slate-900/60 to-transparent pointer-events-none" />
           </div>

@@ -41,12 +41,13 @@ export default function ServiciosPage() {
           {services.map(service => (
             <StaggerItem key={service.id} className="h-full">
               <Link href={`/servicios/${service.slug}`} className="optical-card overflow-hidden flex flex-col sm:flex-row h-full group hover:border-cyan-500/30">
-                <div className="sm:w-2/5 aspect-square sm:aspect-auto relative overflow-hidden bg-slate-900 border-b sm:border-b-0 sm:border-r border-cyan-500/10 flex items-center justify-center p-6 flex-shrink-0">
-                  <div className="w-20 h-20 rounded-2xl bg-cyan-950/60 border border-cyan-500/20 flex items-center justify-center text-cyan-400 group-hover:bg-cyan-500/10 transition-colors shadow-lg">
-                    {service.id === 'serv-cirugia-lasik' ? <FaGlasses size={32} /> : 
-                     service.id === 'serv-cirugia-de-catarata' ? <FaEye size={32} /> :
-                     <FaMicroscope size={32} />}
-                  </div>
+                <div className="sm:w-2/5 aspect-square sm:aspect-auto relative overflow-hidden bg-slate-900 border-b sm:border-b-0 sm:border-r border-cyan-500/10 flex-shrink-0">
+                  <img 
+                    src={service.image} 
+                    alt={service.name}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent pointer-events-none" />
                 </div>
                 <div className="sm:w-3/5 p-8 flex flex-col justify-center flex-grow">
                   <div className="flex flex-wrap gap-2 mb-2">

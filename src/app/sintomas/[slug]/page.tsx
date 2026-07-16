@@ -63,12 +63,12 @@ export default async function SymptomPage({ params }: { params: Promise<{ slug: 
             <p className="text-sm md:text-base text-slate-300 leading-relaxed">{symptom.description}</p>
           </div>
           <div className="lg:w-1/2 min-h-[300px] bg-slate-900 border border-cyan-500/10 rounded-[2.5rem] flex items-center justify-center shadow-xl relative overflow-hidden group">
-             <div className="absolute inset-0 bg-gradient-to-tr from-cyan-950/40 via-slate-900 to-amber-950/20 flex flex-col items-center justify-center p-6 text-center">
-                <div className="w-32 h-32 rounded-full border border-cyan-500/25 flex items-center justify-center relative group-hover:scale-105 transition-transform duration-500">
-                  <FaEye className="text-cyan-400 text-4xl animate-pulse" />
-                </div>
-                <p className="text-slate-400 text-xs font-mono tracking-widest mt-4 uppercase">CLINICAL ANALYSIS: {symptom.slug.toUpperCase()}</p>
-             </div>
+             <img 
+               src={symptom.image} 
+               alt={symptom.name}
+               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+             />
+             <div className="absolute inset-0 bg-gradient-to-tr from-cyan-950/40 via-slate-900/60 to-transparent pointer-events-none" />
           </div>
         </FadeUp>
 

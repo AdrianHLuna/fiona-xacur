@@ -39,10 +39,13 @@ export default function SintomasPage() {
           {symptoms.map(sym => (
             <StaggerItem key={sym.id} className="h-full">
               <Link href={`/sintomas/${sym.slug}`} className="optical-card overflow-hidden flex flex-col h-full hover:border-amber-400/40 group">
-                <div className="p-8 pb-4 flex-shrink-0">
-                  <div className="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 group-hover:scale-110 transition-transform duration-300">
-                    <FaShieldAlt size={22} />
-                  </div>
+                <div className="aspect-video relative overflow-hidden bg-slate-900 border-b border-amber-500/10">
+                  <img 
+                    src={sym.image} 
+                    alt={sym.name}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent pointer-events-none" />
                 </div>
                 <div className="p-8 pt-0 flex flex-col flex-grow">
                   <h2 className="text-xl md:text-2xl font-bold text-white mb-3 group-hover:text-cyan-400 transition-colors leading-snug">{sym.name}</h2>

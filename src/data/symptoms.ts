@@ -14,7 +14,7 @@ export const symptoms: Symptom[] = [
     ],
     whyConsult: "Debes consultar de inmediato si el ojo rojo se acompaña de dolor ocular moderado a severo, si disminuye tu visión, si presentas sensibilidad extrema a la luz (fotofobia), o si notas una mancha blanquecina en la córnea.",
     relatedConditions: ["cond-pterigion", "cond-ojo-seco", "cond-ulceras-y-queratitis", "cond-retinopatia"],
-    image: "/images/symptoms/ojo-rojo.webp",
+    image: "/sintomas/ojo-rojo.png",
     seo: {
       title: "Causas de Ojo Rojo Ocular Mérida | Dra. Fiona Xacur",
       description: "¿Ojo rojo y dolor? Conoce las causas comunes como conjuntivitis, carnosidad o queratitis. Consulta de especialidad en Mérida con la Dra. Fiona Xacur.",
@@ -33,7 +33,7 @@ export const symptoms: Symptom[] = [
     ],
     whyConsult: "Se recomienda acudir a consulta si notas una disminución visual progresiva que afecta tu capacidad de lectura, conducción o trabajo digital, o si el empañamiento visual ocurre de manera súbita.",
     relatedConditions: ["cond-miopia-y-astigmatismo", "cond-hipermetropia-y-presbicia", "cond-cataratas", "cond-queratocono"],
-    image: "/images/symptoms/vision-borrosa.webp",
+    image: "/sintomas/vision-borrosa.png",
     seo: {
       title: "Visión Borrosa Causas y Tratamiento Mérida | Dra. Fiona",
       description: "Causas comunes de la visión borrosa como miopía, astigmatismo o cataratas. Agenda tu examen de la vista en Mérida con la Dra. Fiona Carolina Xacur.",
@@ -51,7 +51,7 @@ export const symptoms: Symptom[] = [
     ],
     whyConsult: "Acude a valoración si la carnosidad está enrojecida y te causa ardor persistente, si sientes que interfiere con tu visión o si estéticamente notas que avanza hacia el centro del ojo.",
     relatedConditions: ["cond-pterigion"],
-    image: "/images/symptoms/carnosidad.webp",
+    image: "/sintomas/carnosidad.png",
     seo: {
       title: "Carnosidad en el Ojo (Pterigión) Mérida | Dra. Fiona",
       description: "Síntomas y opciones de tratamiento para la carnosidad en el ojo (pterigión) en Mérida con la Dra. Fiona Carolina Xacur García.",
@@ -70,7 +70,7 @@ export const symptoms: Symptom[] = [
     ],
     whyConsult: "Consulta si el ardor y la irritación ocular son diarios y te dificultan el trabajo frente a computadoras, o si el ojo lagrimea constantemente sin causa aparente.",
     relatedConditions: ["cond-ojo-seco"],
-    image: "/images/symptoms/resequedad.webp",
+    image: "/sintomas/resequedad.png",
     seo: {
       title: "Resequedad y Ardor en los Ojos Mérida | Dra. Fiona Xacur",
       description: "Alivia el ojo seco. Diagnóstico y tratamiento de la resequedad ocular en Mérida con la Dra. Fiona Carolina Xacur García.",
@@ -89,7 +89,7 @@ export const symptoms: Symptom[] = [
     ],
     whyConsult: "El dolor ocular agudo e intenso es una emergencia médica. Debes acudir con el oftalmólogo inmediatamente si el dolor se acompaña de náuseas, visión de arcoíris o pérdida súbita de la visión.",
     relatedConditions: ["cond-ulceras-y-queratitis", "cond-glaucoma", "cond-retinopatia"],
-    image: "/images/symptoms/dolor-ocular.webp",
+    image: "/sintomas/dolor-ocular.png",
     seo: {
       title: "Urgencias por Dolor Ocular Mérida | Dra. Fiona Xacur",
       description: "Atención especializada para dolor en el ojo en Mérida. Descarte queratitis, úlceras o glaucoma con la Dra. Fiona Carolina Xacur García.",
@@ -108,7 +108,7 @@ export const symptoms: Symptom[] = [
     ],
     whyConsult: "Acude a consulta si la sensación persiste por más de 24 horas, si el ojo se enrojece intensamente, o si sospechas de la presencia de un cuerpo extraño incrustado para evitar una úlcera corneal.",
     relatedConditions: ["cond-ojo-seco", "cond-pterigion", "cond-ulceras-y-queratitis"],
-    image: "/images/symptoms/sensacion-cuerpo-extrano.webp",
+    image: "/sintomas/sensacion-cuerpo-extrano.png",
     seo: {
       title: "Sensación de Cuerpo Extraño en el Ojo Mérida | Dra. Fiona",
       description: "Qué hacer ante la sensación de basura o arenilla en los ojos. Consulta de oftalmología en Mérida con la Dra. Fiona Carolina Xacur García.",
@@ -126,7 +126,7 @@ export const symptoms: Symptom[] = [
     ],
     whyConsult: "Si notas que las líneas rectas se ven onduladas o si se deforma la visión central de manera repentina, debes someterte a un examen de fondo de ojo y topografía para diagnosticar queratocono o daño retiniano.",
     relatedConditions: ["cond-queratocono", "cond-miopia-y-astigmatismo", "cond-retinopatia"],
-    image: "/images/symptoms/distorsionada.webp",
+    image: "/sintomas/distorsionada.png",
     seo: {
       title: "Visión Ondulada u Deformada Mérida | Dra. Fiona Xacur",
       description: "Diagnóstico de visión distorsionada u ondulada en Mérida. Descarte queratocono o daño en la mácula con la Dra. Fiona Carolina Xacur García.",
@@ -145,7 +145,7 @@ export const symptoms: Symptom[] = [
     ],
     whyConsult: "Consulta de inmediato si el lagrimeo excesivo se acompaña de dolor ocular, pus o secreciones verdosas, visión borrosa que no mejora al parpadear, o una protuberancia dolorosa cerca del lagrimal.",
     relatedConditions: ["cond-ojo-seco", "cond-pterigion", "cond-conjuntivitis-y-alergias"],
-    image: "/images/symptoms/lagrimeo.webp",
+    image: "/sintomas/lagrimeo.png",
     seo: {
       title: "Causas de Lagrimeo Constante en los Ojos Mérida | Dra. Fiona",
       description: "¿Ojos llorosos todo el tiempo? Conoce causas como ojo seco o conductos obstruidos. Consulta con la Dra. Fiona Carolina Xacur García en Mérida.",
@@ -164,7 +164,7 @@ export const symptoms: Symptom[] = [
     ],
     whyConsult: "Frotarte vigorosamente los ojos puede debilitar y deformar la córnea permanentemente, causando queratocono. Consulta al especialista para recibir gotas antialérgicas seguras.",
     relatedConditions: ["cond-conjuntivitis-y-alergias", "cond-ojo-seco", "cond-queratocono"],
-    image: "/images/symptoms/comezon.webp",
+    image: "/sintomas/comezon.png",
     seo: {
       title: "Comezón y Picazón en los Ojos Mérida | Dra. Fiona Xacur",
       description: "¿Tienes comezón en los ojos de manera constante? Descarta conjuntivitis alérgica y blefaritis. Tratamiento especializado en Mérida con la Dra. Fiona Xacur.",
@@ -183,7 +183,7 @@ export const symptoms: Symptom[] = [
     ],
     whyConsult: "La aparición repentina de destellos de luz (relámpagos) junto con manchas flotantes oscuras es una urgencia médica grave que requiere examen inmediato de fondo de ojo por desgarro o desprendimiento de retina.",
     relatedConditions: ["cond-cataratas", "cond-queratocono", "cond-retinopatia", "cond-miopia-y-astigmatismo"],
-    image: "/images/symptoms/halos.webp",
+    image: "/sintomas/halos.png",
     seo: {
       title: "Ver Halos de Luz y Destellos Mérida | Dra. Fiona Xacur",
       description: "Causas de halos y destellos de luz. Descarte problemas de retina, cataratas o queratocono. Agenda tu consulta en Mérida con la Dra. Fiona Xacur.",
