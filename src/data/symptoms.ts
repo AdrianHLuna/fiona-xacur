@@ -132,5 +132,62 @@ export const symptoms: Symptom[] = [
       description: "Diagnóstico de visión distorsionada u ondulada en Mérida. Descarte queratocono o daño en la mácula con la Dra. Fiona Carolina Xacur García.",
       keywords: ["ver líneas onduladas Mérida", "visión distorsionada Mérida", "queratocono astigmatismo irregular", "retinólogo Mérida"]
     }
+  },
+  {
+    id: "symp-lagrimeo",
+    slug: "lagrimeo",
+    name: "Lagrimeo Constante",
+    description: "Producción excesiva y continua de lágrimas que puede desbordarse por las mejillas. A menudo es una respuesta de irritación refleja o de una obstrucción en el drenaje del sistema lagrimal.",
+    causes: [
+      "Síndrome de Ojo Seco (lagrimeo reflejo por mala calidad de lágrima)",
+      "Obstrucción de la vía lagrimal (frecuente en adultos mayores)",
+      "Conjuntivitis alérgica o infecciosa e irritación por polvo o viento"
+    ],
+    whyConsult: "Consulta de inmediato si el lagrimeo excesivo se acompaña de dolor ocular, pus o secreciones verdosas, visión borrosa que no mejora al parpadear, o una protuberancia dolorosa cerca del lagrimal.",
+    relatedConditions: ["cond-ojo-seco", "cond-pterigion", "cond-conjuntivitis-y-alergias"],
+    image: "/images/symptoms/lagrimeo.webp",
+    seo: {
+      title: "Causas de Lagrimeo Constante en los Ojos Mérida | Dra. Fiona",
+      description: "¿Ojos llorosos todo el tiempo? Conoce causas como ojo seco o conductos obstruidos. Consulta con la Dra. Fiona Carolina Xacur García en Mérida.",
+      keywords: ["lagrimeo constante Mérida", "ojos llorosos causas", "obstrucción lagrimal Mérida", "oftalmólogo Mérida"]
+    }
+  },
+  {
+    id: "symp-comezon-ojos",
+    slug: "comezon-ojos",
+    name: "Comezón en los Ojos",
+    description: "Sensación de comezón, picazón o prurito ocular que genera una urgencia persistente por frotar los ojos. Típicamente indica alergias o inflamaciones de los párpados.",
+    causes: [
+      "Conjuntivitis alérgica por polen, polvo o caspa de mascotas",
+      "Blefaritis (inflamación e infección grasa en el borde palpebral)",
+      "Uso de cosméticos irritantes o falta de lubricación (ojo seco)"
+    ],
+    whyConsult: "Frotarte vigorosamente los ojos puede debilitar y deformar la córnea permanentemente, causando queratocono. Consulta al especialista para recibir gotas antialérgicas seguras.",
+    relatedConditions: ["cond-conjuntivitis-y-alergias", "cond-ojo-seco", "cond-queratocono"],
+    image: "/images/symptoms/comezon.webp",
+    seo: {
+      title: "Comezón y Picazón en los Ojos Mérida | Dra. Fiona Xacur",
+      description: "¿Tienes comezón en los ojos de manera constante? Descarta conjuntivitis alérgica y blefaritis. Tratamiento especializado en Mérida con la Dra. Fiona Xacur.",
+      keywords: ["comezón en los ojos Mérida", "picazón ocular causas", "ojo alérgico Mérida", "oftalmólogo especialista"]
+    }
+  },
+  {
+    id: "symp-halos-destellos",
+    slug: "halos-destellos",
+    name: "Halos y Destellos de Luz",
+    description: "Visualización de círculos coloreados alrededor de bombillas o faros (halos) o de destellos repentinos y centellas brillantes (destellos) en el campo visual.",
+    causes: [
+      "Opacidad del cristalino (cataratas)",
+      "Astigmatismo irregular o queratocono avanzado",
+      "Tracción o desgarro en la retina (especialmente los destellos de inicio súbito)"
+    ],
+    whyConsult: "La aparición repentina de destellos de luz (relámpagos) junto con manchas flotantes oscuras es una urgencia médica grave que requiere examen inmediato de fondo de ojo por desgarro o desprendimiento de retina.",
+    relatedConditions: ["cond-cataratas", "cond-queratocono", "cond-retinopatia", "cond-miopia-y-astigmatismo"],
+    image: "/images/symptoms/halos.webp",
+    seo: {
+      title: "Ver Halos de Luz y Destellos Mérida | Dra. Fiona Xacur",
+      description: "Causas de halos y destellos de luz. Descarte problemas de retina, cataratas o queratocono. Agenda tu consulta en Mérida con la Dra. Fiona Xacur.",
+      keywords: ["halos de luz en ojos Mérida", "destellos de luz en el ojo", "ver moscas flotantes Mérida", "oftalmólogo urgencias Mérida"]
+    }
   }
 ];

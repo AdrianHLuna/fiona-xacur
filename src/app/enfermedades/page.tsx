@@ -42,11 +42,13 @@ export default function EnfermedadesPage() {
           {diseases.map(disease => (
             <StaggerItem key={disease.id} className="h-full">
               <Link href={`/enfermedades/${disease.slug}`} className="optical-card overflow-hidden flex flex-col h-full hover:border-cyan-500/30 group">
-                <div className="aspect-video relative overflow-hidden bg-slate-900 border-b border-cyan-500/10 flex items-center justify-center p-4">
-                  <div className="w-14 h-14 rounded-full border border-cyan-400/20 flex items-center justify-center relative">
-                    <FaEye className="text-cyan-400/30 group-hover:text-cyan-400 transition-colors group-hover:scale-110 duration-500 text-2xl" />
-                    <div className="absolute inset-0 bg-cyan-400/5 rounded-full blur-sm" />
-                  </div>
+                <div className="aspect-video relative overflow-hidden bg-slate-900 border-b border-cyan-500/10">
+                  <img 
+                    src={disease.image} 
+                    alt={disease.name}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-80 group-hover:opacity-100"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent pointer-events-none" />
                 </div>
                 <div className="p-8 flex flex-col flex-grow">
                   <h2 className="text-xl md:text-2xl font-bold text-white mb-3 group-hover:text-cyan-400 transition-colors leading-snug">{disease.name}</h2>

@@ -1,6 +1,6 @@
 # Catálogo de Prompts de Imágenes — Oftalmología ("Iris & Optics")
 
-Este catálogo define los prompts específicos para la generación de imágenes con inteligencia artificial (Midjourney v6.0) para el sitio de la **Dra. Fiona Carolina Xacur García**.
+Este catálogo define los prompts específicos para la generación de imágenes con inteligencia artificial (Midjourney v6.0, DALL-E 3, etc.) para el sitio de la **Dra. Fiona Carolina Xacur García**.
 
 ---
 
@@ -147,6 +147,19 @@ Este catálogo define los prompts específicos para la generación de imágenes 
   Negative Prompt: sci-fi, futuristic, hologram, digital UI, hud, data rings, drawings, cartoon, watermark, text.
   ```
 
+### Conjuntivitis y Alergias Oculares
+- **Ruta:** `/images/diseases/conjuntivitis.webp`
+- **Prompt:**
+  ```text
+  A high-quality clinical macro illustration of a human eye showing conjunctival hyperemia (pink eye), representing conjunctivitis. Soft pinkish inflammation of the white part of the eye (sclera) with fine blood vessels, natural iris and pupil details.
+  Lighting: Clean, bright medical studio lighting, soft shadows.
+  Color Palette: Ocean Blue (#45a0cd) iris, soft pinkish sclera, Deep Slate Black (#070b12).
+  Composition: Focused clinical macro of the eye.
+  Mood: Informative, clear, professional.
+  Suffixes: realistic medical CGI, 8k, photorealistic textures, unreal engine 5 style --ar 16:9 --v 6.0
+  Negative Prompt: hologram, sci-fi, futuristic, cyberpunk, neon, glowing digital UI, hud, text, words, letters, watermark, signature.
+  ```
+
 ---
 
 ## 3. Procedimientos (Servicios)
@@ -215,3 +228,170 @@ Este catálogo define los prompts específicos para la generación de imágenes 
   Suffixes: realistic CGI, 8k, photorealistic textures --ar 16:9 --v 6.0
   Negative Prompt: person, doctor, patient, sci-fi, neon, glowing digital UI, hud, text, watermark.
   ```
+
+---
+
+## 4. Señales de Alarma (Síntomas)
+
+### Ojo Rojo
+- **Ruta:** `/images/symptoms/ojo-rojo.webp`
+- **Prompt:**
+  ```text
+  A warm, empathetic close-up photograph of a woman looking with a gentle expression, showing minor eye redness (dilated vessels on the white of the eye) in a soft, non-alarming way. Clean clinical daylight, calm environment.
+  Lighting: Soft natural daylight, bright and clinical.
+  Color Palette: Warm skin tones, Ocean Blue (#45a0cd) eyes, light gray, soft gold.
+  Composition: Close-up face portrait focusing on the eyes.
+  Mood: Empathetic, hopeful, comforting.
+  Suffixes: authentic medical photography, 8k, razor sharp focus, realistic skin textures --ar 16:9 --v 6.0
+  Negative Prompt: sci-fi, neon, glowing digital UI, hud, scary, blood, horror, text, watermark.
+  ```
+
+### Visión Borrosa
+- **Ruta:** `/images/symptoms/vision-borrosa.webp`
+- **Prompt:**
+  ```text
+  An artistic, non-alarming first-person perspective showing a slightly blurred and out-of-focus view of a warm, modern living room with clean, bright clinical lighting. Symmetrical perspective.
+  Lighting: Soft, bright natural light.
+  Color Palette: Ocean Blue (#45a0cd), Deep Slate (#070b12), warm beige, Gold (#d59704).
+  Composition: First-person blurred focus perspective.
+  Mood: Calm, informative, professional.
+  Suffixes: realistic CGI, 8k, photorealistic textures, soft depth of field --ar 16:9 --v 6.0
+  Negative Prompt: hologram, sci-fi, futuristic, spaceship, glowing digital UI, hud, text, watermark.
+  ```
+
+### Carnosidad en el Ojo
+- **Ruta:** `/images/symptoms/carnosidad.webp`
+- **Prompt:**
+  ```text
+  A clean, professional close-up photograph of a patient's eye with a small, early-stage pterygium growth on the sclera, presented in a non-scary, clean clinical context.
+  Lighting: Bright white clinical studio lighting, soft shadows.
+  Color Palette: Natural iris colors, light pink growth tissue, Deep Slate (#070b12) background.
+  Composition: Macro focus on the eye surface.
+  Mood: Clinical, reassuring, accurate.
+  Suffixes: authentic medical photography, 8k, razor sharp focus --ar 16:9 --v 6.0
+  Negative Prompt: sci-fi, cartoon, CGI, 3D, neon, watermark, text, scary, blood.
+  ```
+
+### Resequedad Ocular
+- **Ruta:** `/images/symptoms/resequedad.webp`
+- **Prompt:**
+  ```text
+  An empathetic close-up of a patient gently applying a single clear lubricating eye drop (artificial tear) into their eye, capturing the clear drop hovering above the eye. Clean, sterile clinical setting.
+  Lighting: Bright, clean natural daylight.
+  Color Palette: Ocean Blue (#45a0cd) water drop reflection, skin tones, Deep Slate Black (#070b12).
+  Composition: Tight macro close-up.
+  Mood: Reassuring, therapeutic, fresh.
+  Suffixes: authentic medical photography, 8k, razor sharp focus --ar 16:9 --v 6.0
+  Negative Prompt: sci-fi, futuristic, neon, drawings, cartoon, watermark, text.
+  ```
+
+### Dolor Ocular
+- **Ruta:** `/images/symptoms/dolor-ocular.webp`
+- **Prompt:**
+  ```text
+  An empathetic portrait of a woman gently touching her temple with a subtle look of discomfort, sitting in a warm, bright modern clinical office. Clean, comfortable atmosphere.
+  Lighting: Soft, comforting natural studio lighting.
+  Color Palette: Ocean Blue (#45a0cd), Seafoam Green (#6cb3ad), warm wooden tones, Anthracite (#333333).
+  Composition: Medium close-up portrait.
+  Mood: Empathetic, professional, patient-centered.
+  Suffixes: authentic photography, 8k, photorealistic textures, soft depth of field --ar 16:9 --v 6.0
+  Negative Prompt: scary, blood, horror, sci-fi, futuristic, neon, glowing digital UI, hud, text, watermark.
+  ```
+
+### Sensación de Basura en los Ojos
+- **Ruta:** `/images/symptoms/sensacion-cuerpo-extrano.webp`
+- **Prompt:**
+  ```text
+  An empathetic close-up of a person gently holding their hand near their eye as if checking for dust, in a clean, brightly lit modern home clinic environment. Reassuring and soft.
+  Lighting: Soft studio lighting, bright background.
+  Color Palette: Skin tones, Ocean Blue (#45a0cd), clean white.
+  Composition: Portrait close-up.
+  Mood: Reassuring, supportive, clinical.
+  Suffixes: authentic photography, 8k, photorealistic textures --ar 16:9 --v 6.0
+  Negative Prompt: sci-fi, neon, glowing digital UI, hud, text, watermark, scary, blood.
+  ```
+
+### Visión Distorsionada u Ondulada
+- **Ruta:** `/images/symptoms/distorsionada.webp`
+- **Prompt:**
+  ```text
+  A conceptual representation of warped vision, showing a straight metal window frame or clean wall lines appearing gently distorted and wavy, seen from a first-person perspective in a bright room.
+  Lighting: Clean, bright indoor lighting.
+  Color Palette: Deep Slate (#070b12), Ocean Blue (#45a0cd), white, gray.
+  Composition: Symmetrical room perspective with distorted vertical lines.
+  Mood: Educational, clinical, diagnostic.
+  Suffixes: realistic CGI, 8k, photorealistic textures --ar 16:9 --v 6.0
+  Negative Prompt: sci-fi, futuristic, spaceship, neon, glowing digital UI, hud, text, watermark.
+  ```
+
+### Lagrimeo Constante
+- **Ruta:** `/images/symptoms/lagrimeo.webp`
+- **Prompt:**
+  ```text
+  A soft, empathetic macro close-up of a clean human eye with a single clear tear rolling gently down the cheek. Clean clinical daylight, highlighting the tear's transparency.
+  Lighting: Bright, soft clinical daylight.
+  Color Palette: Natural skin tones, Ocean Blue (#45a0cd) iris, transparent water highlights.
+  Composition: Macro view of the eye and cheek.
+  Mood: Reassuring, human, clinical.
+  Suffixes: authentic photography, 8k, razor sharp focus, photorealistic textures --ar 16:9 --v 6.0
+  Negative Prompt: sad, crying, depressed, horror, blood, sci-fi, neon, text, watermark.
+  ```
+
+### Comezón en los Ojos
+- **Ruta:** `/images/symptoms/comezon.webp`
+- **Prompt:**
+  ```text
+  An empathetic clinical view of a patient sitting in a bright consulting room, gesturing as if they feel a tickle near their eye without scratching, warm and gentle expression.
+  Lighting: Clean, bright medical office lighting.
+  Color Palette: Warm wood tones, Ocean Blue (#45a0cd), light beige, Deep Slate (#070b12).
+  Composition: Medium close-up.
+  Mood: Reassuring, diagnostic, empathetic.
+  Suffixes: authentic photography, 8k, photorealistic textures --ar 16:9 --v 6.0
+  Negative Prompt: frotándose con fuerza, frotar ojos, sci-fi, futuristic, neon, text, watermark.
+  ```
+
+### Halos y Destellos
+- **Ruta:** `/images/symptoms/halos.webp`
+- **Prompt:**
+  ```text
+  A conceptual simulation of night driving vision, showing clean street lamps emitting soft, circular glowing halos and subtle starburst destellos (flares) of light against a dark blue evening sky.
+  Lighting: Night city street lights, glowing circular halos and starbursts.
+  Color Palette: Deep Slate Black (#070b12) sky, soft Ocean Blue (#45a0cd) halos, Laser Gold (#d59704) flares.
+  Composition: First-person driving view through a clean windshield.
+  Mood: Informative, diagnostic.
+  Suffixes: realistic CGI, 8k, photorealistic light rendering --ar 16:9 --v 6.0
+  Negative Prompt: sci-fi, cyberpunk, spaceships, glowing digital UI, hud, text, watermark.
+  ```
+
+---
+
+## 5. Resumen de Archivos
+
+| Categoría | Archivo de Destino | Nombre de la Entidad |
+|---|---|---|
+| Doctor | `/images/doctor.webp` | Foto Principal de la Dra. Fiona Xacur |
+| Padecimiento | `/images/diseases/refraccion.webp` | Miopía y Astigmatismo |
+| Padecimiento | `/images/diseases/hipermetropia.webp` | Hipermetropía y Presbicia |
+| Padecimiento | `/images/diseases/pterigion.webp` | Pterigión (Carnosidad Ocular) |
+| Padecimiento | `/images/diseases/cataratas.webp` | Cataratas Oculares |
+| Padecimiento | `/images/diseases/queratocono.webp` | Queratocono |
+| Padecimiento | `/images/diseases/ojoseco.webp` | Ojo Seco y Blefaritis |
+| Padecimiento | `/images/diseases/ulceras.webp` | Úlceras Corneales y Queratitis |
+| Padecimiento | `/images/diseases/glaucoma.webp` | Glaucoma |
+| Padecimiento | `/images/diseases/retinopatia.webp` | Retinopatía y Uveítis |
+| Padecimiento | `/images/diseases/conjuntivitis.webp` | Conjuntivitis y Alergias Oculares |
+| Procedimiento | `/images/services/consulta.webp` | Consulta Oftalmológica |
+| Procedimiento | `/images/services/lentes-esclerales.webp` | Adaptación de Lentes Esclerales |
+| Procedimiento | `/images/services/lasik.webp` | Valoración para Cirugía Refractiva (LASIK) |
+| Procedimiento | `/images/services/catarata.webp` | Valoración para Cirugía de Catarata |
+| Procedimiento | `/images/services/queratocono.webp` | Valoración de Queratocono |
+| Señal de Alarma | `/images/symptoms/ojo-rojo.webp` | Ojo Rojo |
+| Señal de Alarma | `/images/symptoms/vision-borrosa.webp` | Visión Borrosa |
+| Señal de Alarma | `/images/symptoms/carnosidad.webp` | Carnosidad en el Ojo |
+| Señal de Alarma | `/images/symptoms/resequedad.webp` | Resequedad Ocular |
+| Señal de Alarma | `/images/symptoms/dolor-ocular.webp` | Dolor Ocular |
+| Señal de Alarma | `/images/symptoms/sensacion-cuerpo-extrano.webp` | Sensación de Basura en los Ojos |
+| Señal de Alarma | `/images/symptoms/distorsionada.webp` | Visión Distorsionada u Ondulada |
+| Señal de Alarma | `/images/symptoms/lagrimeo.webp` | Lagrimeo Constante |
+| Señal de Alarma | `/images/symptoms/comezon.webp` | Comezón en los Ojos |
+| Señal de Alarma | `/images/symptoms/halos.webp` | Halos y Destellos |

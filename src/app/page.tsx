@@ -268,7 +268,7 @@ export default function Home() {
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
             initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} variants={staggerContainer}
           >
-            {diseases.map((disease, idx) => (
+            {diseases.slice(0, 5).map((disease, idx) => (
               <motion.div 
                 key={disease.id} 
                 variants={fadeUp} 
@@ -276,13 +276,12 @@ export default function Home() {
               >
                 <Link href={`/enfermedades/${disease.slug}`} className="optical-card overflow-hidden group flex flex-col h-full hover:border-cyan-400/40">
                   <div className="aspect-video relative overflow-hidden bg-slate-900 border-b border-cyan-500/10">
-                    {/* Abstract Optical Graphics representing the disease */}
-                    <div className="absolute inset-0 bg-gradient-to-br from-cyan-950/30 to-slate-950 flex items-center justify-center p-4">
-                      <div className="w-16 h-16 rounded-full border border-cyan-500/20 flex items-center justify-center group-hover:scale-110 transition-transform duration-500 relative">
-                        <div className="w-10 h-10 rounded-full border border-dashed border-amber-500/30 animate-spin-slow" />
-                        <div className="absolute inset-0 bg-cyan-400/5 rounded-full blur-sm" />
-                      </div>
-                    </div>
+                    <img 
+                      src={disease.image} 
+                      alt={disease.name}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-80 group-hover:opacity-100"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent pointer-events-none" />
                   </div>
                   <div className="p-6 flex flex-col flex-grow">
                     <h3 className="text-lg font-bold text-white mb-2 group-hover:text-cyan-400 transition-colors">{disease.name}</h3>
@@ -321,7 +320,7 @@ export default function Home() {
           </motion.div>
           
           <div className="flex flex-col gap-10 max-w-5xl mx-auto">
-            {services.map((service, idx) => (
+            {services.slice(0, 5).map((service, idx) => (
               <motion.div 
                 key={service.id}
                 initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeUp}
@@ -367,7 +366,7 @@ export default function Home() {
             className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto"
             initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} variants={staggerContainer}
           >
-            {symptoms.map((sym) => (
+            {symptoms.slice(0, 5).map((sym) => (
               <motion.div key={sym.id} variants={fadeUp} className="h-full">
                 <Link href={`/sintomas/${sym.slug}`} className="optical-card p-8 flex flex-col h-full group hover:border-amber-400/30">
                   <div className="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 mb-6 group-hover:scale-110 transition-transform duration-300">

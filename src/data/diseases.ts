@@ -49,7 +49,7 @@ export const diseases: MedicalCondition[] = [
     ],
     relatedServices: ["serv-cirugia-lasik", "serv-adaptacion-lentes-esclerales"],
     relatedSymptoms: ["symp-vision-borrosa", "symp-dolor-ocular"],
-    image: "/images/diseases/refraccion.webp",
+    image: "/enfermedades/miopia-astigmatismo.png",
     seo: {
       title: "Cirugía Láser de Miopía y Astigmatismo Mérida | Dra. Fiona Xacur",
       description: "Deshazte de los lentes. Especialista en cirugía refractiva láser LASIK en Mérida. Dra. Fiona Carolina Xacur García. Consulta de valoración.",
@@ -99,7 +99,7 @@ export const diseases: MedicalCondition[] = [
     ],
     relatedServices: ["serv-cirugia-lasik"],
     relatedSymptoms: ["symp-vision-borrosa", "symp-dolor-ocular"],
-    image: "/images/diseases/hipermetropia.webp",
+    image: "/enfermedades/hipermetropia-presbicia.png",
     seo: {
       title: "Tratamiento de Presbicia y Vista Cansada Mérida | Dra. Fiona",
       description: "Soluciones modernas para la vista cansada e hipermetropía en Mérida. Recupere su visión de lectura con la Dra. Fiona Carolina Xacur García.",
@@ -151,7 +151,7 @@ export const diseases: MedicalCondition[] = [
     ],
     relatedServices: ["serv-consulta-general"],
     relatedSymptoms: ["symp-carnosidad-ojo", "symp-ojo-rojo", "symp-sensacion-basura"],
-    image: "/images/diseases/pterigion.webp",
+    image: "/enfermedades/pterigion.png",
     seo: {
       title: "Cirugía de Carnosidad Ocular (Pterigión) Mérida | Dra. Fiona",
       description: "Tratamiento definitivo para pterigión en Mérida. Cirugía moderna con autoinjerto para evitar recurrencias por la Dra. Fiona Carolina Xacur García.",
@@ -206,7 +206,7 @@ export const diseases: MedicalCondition[] = [
     ],
     relatedServices: ["serv-cirugia-catarata"],
     relatedSymptoms: ["symp-vision-borrosa", "symp-halos-destellos"],
-    image: "/images/diseases/cataratas.webp",
+    image: "/enfermedades/cataratas.png",
     seo: {
       title: "Cirugía de Catarata en Mérida | Dra. Fiona Carolina Xacur",
       description: "Recupere su visión nítida. Especialista en cirugía de catarata con implante de lente intraocular en Mérida. Dra. Fiona Carolina Xacur García.",
@@ -258,7 +258,7 @@ export const diseases: MedicalCondition[] = [
     ],
     relatedServices: ["serv-valoracion-queratocono", "serv-adaptacion-lentes-esclerales"],
     relatedSymptoms: ["symp-vision-distorsionada", "symp-lagrimeo", "symp-halos-destellos"],
-    image: "/images/diseases/queratocono.webp",
+    image: "/enfermedades/queratocono.png",
     seo: {
       title: "Especialista en Queratocono en Mérida | Dra. Fiona Xacur",
       description: "Diagnóstico y tratamiento avanzado para queratocono en Mérida. Adaptación de lentes esclerales y crosslinking. Dra. Fiona Carolina Xacur García.",
@@ -314,7 +314,7 @@ export const diseases: MedicalCondition[] = [
     ],
     relatedServices: ["serv-consulta-general"],
     relatedSymptoms: ["symp-resequedad-ocular", "symp-sensacion-basura", "symp-comezon-ojos", "symp-ojo-rojo"],
-    image: "/images/diseases/ojoseco.webp",
+    image: "/enfermedades/ojoseco.png",
     seo: {
       title: "Tratamiento de Ojo Seco y Blefaritis Mérida | Dra. Fiona",
       description: "Alivia el ardor y la resequedad ocular. Especialista en diagnóstico y tratamiento integral de ojo seco en Mérida. Dra. Fiona Carolina Xacur García.",
@@ -368,8 +368,8 @@ export const diseases: MedicalCondition[] = [
       }
     ],
     relatedServices: ["serv-consulta-general"],
-    relatedSymptoms: ["symp-dolor-ocular", "symp-ojo-rojo", "symp-secrecion-ocular", "symp-lagrimeo"],
-    image: "/images/diseases/ulceras.webp",
+    relatedSymptoms: ["symp-dolor-ocular", "symp-ojo-rojo", "symp-sensacion-basura", "symp-lagrimeo"],
+    image: "/enfermedades/ulceras.png",
     seo: {
       title: "Urgencias de Úlceras Corneales y Queratitis Mérida | Dra. Fiona",
       description: "Atención inmediata para úlceras de córnea e infecciones oculares en Mérida. Cuidado especializado por la Dra. Fiona Carolina Xacur García.",
@@ -421,7 +421,7 @@ export const diseases: MedicalCondition[] = [
     ],
     relatedServices: ["serv-consulta-general"],
     relatedSymptoms: ["symp-vision-borrosa", "symp-dolor-ocular"],
-    image: "/images/diseases/glaucoma.webp",
+    image: "/enfermedades/glaucoma.png",
     seo: {
       title: "Diagnóstico y Control de Glaucoma en Mérida | Dra. Fiona Xacur",
       description: "Protege tu visión del ladrón silencioso. Diagnóstico preciso y tratamiento oportuno de glaucoma en Mérida con la Dra. Fiona Carolina Xacur García.",
@@ -472,11 +472,67 @@ export const diseases: MedicalCondition[] = [
     ],
     relatedServices: ["serv-consulta-general"],
     relatedSymptoms: ["symp-vision-borrosa", "symp-ojo-rojo", "symp-halos-destellos"],
-    image: "/images/diseases/retinopatia.webp",
+    image: "/enfermedades/retinopatia.png",
     seo: {
       title: "Tratamiento de Retinopatía Diabética Mérida | Dra. Fiona Xacur",
       description: "Especialista en prevención y control de retinopatía diabética y uveítis en Mérida. Cuide su fondo de ojo con la Dra. Fiona Carolina Xacur García.",
       keywords: ["retinopatía diabética Mérida", "uveítis tratamiento Mérida", "fotocoagulación láser retina", "fondo de ojo diabéticos"]
+    }
+  },
+  {
+    id: "cond-conjuntivitis-y-alergias",
+    slug: "conjuntivitis-y-alergias",
+    name: "Conjuntivitis y Alergias Oculares",
+    technicalName: "Conjuntivitis Infecciosa y Alérgica",
+    description: "La conjuntivitis es la inflamación de la conjuntiva, la membrana transparente que recubre el interior de los párpados y la parte blanca del ojo. Al inflamarse, los vasos sanguíneos se hacen más visibles, dando al ojo un aspecto rojo o rosa. Puede deberse a infecciones virales o bacterianas altamente contagiosas, o bien a reacciones alérgicas producidas por el polen, ácaros del polvo o el pelo de mascotas, muy comunes en climas cálidos.",
+    symptoms: [
+      "Enrojecimiento en uno o ambos ojos acompañado de lagrimeo constante",
+      "Comezón, picazón o ardor intenso en los ojos (típico de alergias)",
+      "Secreción ocular transparente, blanquecina o amarillenta que forma costras en las pestañas",
+      "Sensación de arenilla o cuerpo extraño y ligera sensibilidad a la luz"
+    ],
+    causes: [
+      "Infecciones virales (frecuentemente asociadas a resfriados y altamente contagiosas)",
+      "Infecciones bacterianas por transferencia de microorganismos a los ojos",
+      "Reacciones de hipersensibilidad a alérgenos ambientales como polen, polvo o caspa animal"
+    ],
+    riskFactors: [
+      "Exposición a alérgenos estacionales o irritantes como el humo y cosméticos",
+      "Falta de higiene de manos o compartir toallas y objetos personales",
+      "Uso prolongado, inadecuado o dormir con lentes de contacto sin desinfección"
+    ],
+    mexicoStats: "La conjuntivitis representa uno de los diez motivos principales de consulta en el sistema de salud pública en México, con un aumento significativo en épocas de polinización y calor.",
+    complications: [
+      "Afectación de la córnea (queratitis) en casos bacterianos graves no tratados",
+      "Infección crónica por el frotamiento persistente que puede dañar la córnea",
+      "Disminución temporal de la visión si la secreción ocular es abundante"
+    ],
+    treatments: [
+      "Uso de lubricantes oculares (lágrimas artificiales) frías para aliviar la irritación",
+      "Gotas antihistamínicas y estabilizadoras de mastocitos para conjuntivitis alérgicas",
+      "Gotas antibióticas o antiinflamatorias específicas recetadas por el oftalmólogo"
+    ],
+    faqs: [
+      {
+        question: "¿Cómo puedo evitar contagiar la conjuntivitis a mi familia?",
+        answer: "Lávate las manos frecuentemente con agua y jabón, no te frotes los ojos, utiliza toallas y fundas de almohada individuales y cámbialas a diario. Suspende temporalmente el uso de maquillaje y lentes de contacto."
+      },
+      {
+        question: "¿Cuál es la diferencia entre la conjuntivitis alérgica y la infecciosa?",
+        answer: "La alérgica suele afectar a ambos ojos simultáneamente, produce una comezón intensa y secreción acuosa o hialina. La infecciosa puede empezar en un solo ojo, suele acompañarse de secreción espesa amarillenta o verdosa (lagañas) y es muy contagiosa."
+      },
+      {
+        question: "¿Es bueno usar gotas de manzanilla para la conjuntivitis?",
+        answer: "No se recomienda el uso de remedios caseros como té de manzanilla, ya que no son estériles y pueden introducir bacterias, hongos o partículas de plantas al ojo, empeorando la inflamación o causando una infección secundaria grave."
+      }
+    ],
+    relatedServices: ["serv-consulta-general"],
+    relatedSymptoms: ["symp-ojo-rojo", "symp-comezon-ojos", "symp-lagrimeo"],
+    image: "/enfermedades/conjuntivitis.png",
+    seo: {
+      title: "Tratamiento de Conjuntivitis y Alergias Oculares Mérida | Dra. Fiona",
+      description: "Alivio para ojos rojos y comezón. Diagnóstico y tratamiento de conjuntivitis alérgica e infecciosa en Mérida con la Dra. Fiona Carolina Xacur García.",
+      keywords: ["conjuntivitis Mérida", "ojo rojo con lagañas Mérida", "alergia en los ojos tratamiento", "oftalmólogo Mérida"]
     }
   }
 ];
