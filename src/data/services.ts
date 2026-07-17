@@ -75,7 +75,7 @@ export const services: MedicalService[] = [
     slug: "valoracion-cirugia-lasik",
     name: "Valoración para Cirugía Refractiva Láser (LASIK)",
     description: "Protocolo diagnóstico para determinar la candidatura del paciente a cirugía refractiva láser LASIK o PRK, que incluye topografía corneal avanzada y paquimetría ultrasónica.",
-    longDescription: "Antes de realizar una cirugía refractiva láser para corregir miopía, astigmatismo o hipermetropía, es indispensable realizar una valoración minuciosa de la córnea. Este servicio incluye una consulta clínica detallada, una topografía corneal digitalizada (para mapear el relieve, curvatura y regularidad de la córnea) y una paquimetría (medición ultrasónica del grosor corneal). Con estos estudios, la Dra. Fiona Xacur determina si la córnea del paciente tiene las condiciones ideales de grosor y forma para someterse a la remodelación con láser de forma 100% segura, descartando enfermedades como el queratocono subclínico.",
+    longDescription: "Antes de realizar una cirugía refractiva láser para corregir miopía, astigmatismo o hipermetropía, es indispensable realizar una valoración minuciosa de la córnea. Este servicio incluye una consulta clínica detallada, una topografía corneal digitalizada (para mapear el relieve, curvatura y regularidad de la córnea) y una paquimetría (medición ultrasónica del grosor corneal). Con estos estudios, la Dra. Fiona Xacur determina si la córnea del paciente tiene las condiciones ideales de grosor y forma para someterse a la remodelación con el láser excímer SCHWIND AMARIS 500E de forma 100% segura, descartando enfermedades como el queratocono subclínico.",
     type: "consultorio",
     anesthesiaType: "Anestesia tópica en gotas para la toma de paquimetría",
     duration: "45 a 60 minutos",
@@ -93,6 +93,7 @@ export const services: MedicalService[] = [
     priceRange: "Consulta de valoración con estudios incluidos",
     technicalSpecs: {
       "Estudios incluidos": "Topografía corneal computarizada, Paquimetría de espesor corneal",
+      "Tecnología Láser": "Láser Excímer SCHWIND AMARIS 500E",
       "Propósito": "Diagnóstico de idoneidad para cirugía láser refractiva (LASIK / PRK)"
     },
     relatedConditions: ["cond-miopia-y-astigmatismo", "cond-hipermetropia-y-presbicia"],
