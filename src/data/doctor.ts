@@ -38,8 +38,8 @@ export const doctor: DoctorProfile = {
   ],
   certifications: [
     {
-      name: "Diploma en Córnea y Cirugía Refractiva",
-      institution: "Asociación / Especialidad en Córnea y Cirugía Refractiva",
+      name: "Diploma de Alta Especialidad en Córnea y Cirugía Refractiva",
+      institution: "Instituto de Oftalmología Conde de Valenciana / UNAM",
     },
     {
       name: "Especialista Certificada en Oftalmología",
@@ -64,6 +64,11 @@ export const doctor: DoctorProfile = {
       degree: "Especialidad en Oftalmología",
       institution: "Universidad Nacional Autónoma de México (UNAM)",
       year: "2010",
+    },
+    {
+      degree: "Alta Especialidad en Córnea y Cirugía Refractiva",
+      institution: "Instituto de Oftalmología Conde de Valenciana / UNAM",
+      year: "2011",
     }
   ],
   sameAs: [

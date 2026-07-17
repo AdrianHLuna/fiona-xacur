@@ -20,7 +20,6 @@ export const diseases: MedicalCondition[] = [
     ],
     riskFactors: [
       "Padres con graduaciones altas de miopía o astigmatismo",
-      "Uso excesivo de pantallas sin descansos (regla 20-20-20)",
       "Poco tiempo al aire libre durante el desarrollo infantil"
     ],
     mexicoStats: "La miopía y el astigmatismo son los trastornos visuales más comunes en México, afectando a más del 55% de la población joven y en edad escolar.",
@@ -44,7 +43,7 @@ export const diseases: MedicalCondition[] = [
       },
       {
         question: "¿La cirugía refractiva es dolorosa?",
-        answer: "No. Se realiza con anestesia local en gotas (tópica). El procedimiento es sumamente rápido (menos de 10 minutos por ojo) y solo se percibe una leve presión momentánea."
+        answer: "El grado de dolor o molestia en un procedimiento es muy variable de acuerdo a la anatomía y el umbral del dolor de cada paciente. Si bien se utiliza anestesia local en gotas para minimizar las molestias, no es correcto afirmar que es totalmente indoloro para todos. Sin embargo, destaca por tener una recuperación rápida y altas tasas de precisión y seguridad."
       }
     ],
     relatedServices: ["serv-cirugia-lasik", "serv-adaptacion-lentes-esclerales"],

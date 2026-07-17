@@ -226,7 +226,7 @@ export default function Home() {
                   <FaUniversity className="text-cyan-400 text-3xl" />
                   <div>
                     <h4 className="font-bold text-white text-sm md:text-base">Médico Cirujano</h4>
-                    <p className="text-slate-400 text-xs mt-1">Facultad de Medicina, UNAM</p>
+                    <p className="text-slate-400 text-xs mt-1">Universidad Autónoma de Yucatán (UADY)</p>
                   </div>
                 </motion.div>
                 
@@ -234,7 +234,7 @@ export default function Home() {
                   <FaHospitalSymbol className="text-cyan-400 text-3xl" />
                   <div>
                     <h4 className="font-bold text-white text-sm md:text-base">Especialidad en Oftalmología</h4>
-                    <p className="text-slate-400 text-xs mt-1">Instituto de Oftalmología Conde de Valenciana</p>
+                    <p className="text-slate-400 text-xs mt-1">Universidad Nacional Autónoma de México (UNAM) / Instituto Conde de Valenciana</p>
                   </div>
                 </motion.div>
 
@@ -242,10 +242,10 @@ export default function Home() {
                   <div className="absolute top-0 right-0 w-24 h-24 bg-cyan-500/5 rounded-full blur-xl" />
                   <FaCertificate className="text-amber-400 text-3xl relative z-10" />
                   <div className="relative z-10">
-                    <h4 className="font-bold text-white text-sm md:text-base">Retina, Vítreo y Segmento Anterior</h4>
-                    <p className="text-slate-400 text-xs mt-1">Subespecialidad cursada en el Instituto Conde de Valenciana / UNAM</p>
+                    <h4 className="font-bold text-white text-sm md:text-base">Alta Especialidad en Córnea y Cirugía Refractiva</h4>
+                    <p className="text-slate-400 text-xs mt-1">Cursada en el Instituto de Oftalmología Conde de Valenciana / UNAM</p>
                     <p className="mt-4 inline-flex bg-cyan-950/60 border border-cyan-500/30 px-3.5 py-1.5 rounded-lg text-xs font-bold text-cyan-400 font-mono uppercase tracking-wider">
-                      Consejo Mexicano de Oftalmología Certificado (Folio: 14-8739)
+                      Consejo Mexicano de Oftalmología Certificado (No. 2760)
                     </p>
                   </div>
                 </motion.div>

@@ -30,12 +30,7 @@ export default function Header() {
             <img 
               src="/images/logo-horizontal-white.png" 
               alt={`Logo ${doctor.title} ${doctor.name}`}
-              className="h-14 w-auto object-contain hidden sm:block hover:opacity-95 transition"
-            />
-            <img 
-              src="/images/logo-vertical-white.png" 
-              alt={`Logo Icon ${doctor.title} ${doctor.name}`}
-              className="h-10 w-auto object-contain sm:hidden hover:opacity-95 transition"
+              className="h-11 sm:h-14 w-auto object-contain hover:opacity-95 transition"
             />
           </Link>
 

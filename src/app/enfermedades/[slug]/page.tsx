@@ -161,7 +161,7 @@ export default async function DiseasePage({ params }: { params: Promise<{ slug: 
             <div className="sticky top-32 bg-gradient-to-br from-cyan-950 to-slate-900 border border-cyan-500/30 rounded-3xl p-8 text-white shadow-2xl group overflow-hidden">
               <div className="absolute top-0 right-0 w-32 h-32 bg-cyan-400/5 rounded-full blur-2xl pointer-events-none animate-pulse" />
                <h3 className="text-xl md:text-2xl font-bold mb-4 tracking-tight">¿Tienes síntomas de {disease.name}?</h3>
-               <p className="text-slate-400 text-xs md:text-sm mb-8 leading-relaxed">Una detección temprana y una valoración especializada a tiempo es clave. La {doctor.title} {doctor.name} puede ayudarte.</p>
+               <p className="text-slate-400 text-xs md:text-sm mb-8 leading-relaxed">Una detección temprana y una valoración especializada a tiempo es clave. La Dra. Fiona Xacur puede ayudarte.</p>
                <a href={`https://wa.me/${doctor.whatsapp.replace(/\D/g, "")}`} target="_blank" rel="noreferrer" className="block w-full text-center bg-gradient-to-r from-cyan-400 to-cyan-500 text-slate-950 font-extrabold py-4 rounded-xl hover:scale-105 transition-all shadow-lg shadow-cyan-500/10 hover:shadow-cyan-500/25">
                  Agendar Valoración
                </a>
