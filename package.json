@@ -6,7 +6,11 @@
     "dev": "next dev -p 3006",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "docs:extract": "npx tsx src/scripts/extract-data.ts",
+    "docs:generate": "py -3 src/scripts/generate-docs.py",
+    "docs:build": "npm run docs:extract && npm run docs:generate",
+    "docs:apply": "npx tsx src/scripts/apply-data-changes.ts"
   },
   "dependencies": {
     "clsx": "^2.1.1",
