@@ -116,7 +116,7 @@ export default function Home() {
 
             {/* Right: Premium Interactive Doctor Portrait Frame */}
             <motion.div 
-              className="flex-1 w-full max-w-md lg:max-w-none h-[420px] lg:h-[550px] relative mt-10 lg:mt-0" 
+              className="flex-1 w-full max-w-md lg:max-w-lg h-[420px] lg:h-[520px] relative mt-10 lg:mt-0" 
               initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.7, delay: 0.2 }}
             >
               {/* Refractive background rings */}
@@ -127,23 +127,16 @@ export default function Home() {
                 className="w-full h-full bg-slate-900/60 rounded-[3rem] border border-cyan-500/25 shadow-2xl flex items-center justify-center relative overflow-hidden group backdrop-blur-md"
                 animate={{ y: [-6, 6, -6] }} transition={{ repeat: Infinity, duration: 6, ease: "easeInOut" }}
               >
-                 {/* Visual Representation of Optics */}
-                 <div className="absolute inset-0 bg-gradient-to-tr from-cyan-950/40 via-slate-900/80 to-amber-950/20 flex flex-col items-center justify-center p-6 text-center">
-                    {/* Concentric rings to suggest camera lens or pupil */}
-                    <div className="w-48 h-48 rounded-full border-2 border-cyan-500/20 flex items-center justify-center mb-6 relative">
-                      <div className="w-36 h-36 rounded-full border border-dashed border-amber-400/20 flex items-center justify-center animate-spin-slow">
-                        <div className="w-24 h-24 rounded-full border-4 border-cyan-400/40 flex items-center justify-center relative">
-                          <FaEye className="text-cyan-400 text-3xl animate-pulse" />
-                        </div>
-                      </div>
-                      <div className="absolute -top-2 left-1/2 -translate-x-1/2 bg-cyan-950 text-cyan-400 text-[10px] font-mono px-2 py-0.5 border border-cyan-500/30 rounded-md">
-                        FOCUS: CÓRNEA & LASIK
-                      </div>
-                    </div>
-                    
-                    <h3 className="text-xl font-bold text-white uppercase tracking-wider mb-2">Dra. Fiona Xacur</h3>
-                    <p className="text-xs font-mono text-cyan-400 tracking-widest">{doctor.subspecialty}</p>
-                 </div>
+                <img 
+                  src="/hero.webp" 
+                  alt="Dra. Fiona Carolina Xacur García - Cirujana Oftalmóloga" 
+                  className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-cyan-950/20 pointer-events-none" />
+                <div className="absolute bottom-6 left-6 right-6 p-4 rounded-2xl bg-slate-950/70 border border-cyan-500/20 backdrop-blur-md">
+                  <h3 className="text-lg font-bold text-white uppercase tracking-wider">{doctor.title} {doctor.name}</h3>
+                  <p className="text-xs font-mono text-cyan-400 tracking-widest">{doctor.specialistTitle}</p>
+                </div>
               </motion.div>
 
               {/* Floating Experience Badge */}
@@ -196,13 +189,18 @@ export default function Home() {
           >
             {/* Left: Interactive clinical frame */}
             <motion.div className="lg:w-1/3" variants={fadeUp}>
-              <div className="aspect-[3/4] bg-slate-900 border border-cyan-500/10 rounded-[2.5rem] shadow-2xl flex items-center justify-center sticky top-32 group overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-cyan-950/20 to-slate-950 group-hover:scale-105 transition-transform duration-700 flex flex-col items-center justify-center p-6 text-center">
-                  <FaMicroscope className="text-cyan-400/20 text-7xl mb-4 group-hover:text-cyan-400 group-hover:scale-110 transition-all duration-500" />
-                  <p className="text-slate-400 font-mono text-[10px] uppercase tracking-widest mb-1">Tecnología Oftálmica</p>
-                  <p className="text-slate-200 font-bold text-sm">Microscopio Carl Zeiss</p>
-                  <div className="w-12 h-[1px] bg-cyan-500/30 my-4" />
-                  <p className="text-slate-400 text-xs">Precisión microscópica integrada en cada cirugía</p>
+              <div className="aspect-[3/4] bg-slate-900 border border-cyan-500/20 rounded-[2.5rem] shadow-2xl flex items-center justify-center sticky top-32 group overflow-hidden relative">
+                <img 
+                  src="/aboutme.webp" 
+                  alt="Dra. Fiona Carolina Xacur García - Especialista en Córnea y Cirugía Refractiva" 
+                  className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/20 to-transparent pointer-events-none" />
+                <div className="absolute bottom-6 left-6 right-6 p-4 rounded-2xl bg-slate-950/80 border border-cyan-500/20 backdrop-blur-md text-center">
+                  <p className="text-slate-400 font-mono text-[10px] uppercase tracking-widest mb-1">Tecnología & Atención</p>
+                  <p className="text-slate-100 font-bold text-sm">Dra. Fiona Carolina Xacur García</p>
+                  <div className="w-12 h-[1px] bg-cyan-500/30 my-2 mx-auto" />
+                  <p className="text-cyan-400 text-xs font-medium">Alta Especialidad en Córnea y Cirugía Refractiva</p>
                 </div>
               </div>
             </motion.div>
