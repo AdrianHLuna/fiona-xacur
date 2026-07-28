@@ -93,9 +93,10 @@ export const symptoms: Symptom[] = [
     "causes": [
       "Síndrome de Ojo Seco evaporativo o acuodeficiente",
       "Blefaritis posterior (glándulas de Meibomio obstruidas)",
-      "Clima caluroso o uso excesivo de aire acondicionado"
+      "Clima caluroso o uso excesivo de aire acondicionado",
+      "Enfermedades sistémicas como la artritis reumatoide o el síndrome de Sjögren"
     ],
-    "whyConsult": "Consulta si el ardor y la irritación ocular son diarios y te dificultan el trabajo frente a computadoras, o si el ojo lagrimea constantemente sin causa aparente.",
+    "whyConsult": "Consulta si el ardor y la irritación ocular son frecuentes e interfieren con tu vida cotidiana, o si el ojo lagrimea constantemente sin causa aparente.",
     "relatedConditions": [
       "cond-ojo-seco"
     ],
@@ -149,7 +150,7 @@ export const symptoms: Symptom[] = [
       "Pterigión inflamado",
       "Presencia real de un cuerpo extraño (rebaba, polvo, insecto) o pestaña invertida"
     ],
-    "whyConsult": "Acude a consulta si la sensación persiste por más de 24 horas, si el ojo se enrojece intensamente, o si sospechas de la presencia de un cuerpo extraño incrustado para evitar una úlcera corneal.",
+    "whyConsult": "Acude a consulta si la sensación es persistente, si el ojo se enrojece intensamente, o si sospechas de la presencia de un cuerpo extraño incrustado para evitar una úlcera corneal.",
     "relatedConditions": [
       "cond-ojo-seco",
       "cond-pterigion",
@@ -232,7 +233,7 @@ export const symptoms: Symptom[] = [
       "Blefaritis (inflamación e infección grasa en el borde palpebral)",
       "Uso de cosméticos irritantes o falta de lubricación (ojo seco)"
     ],
-    "whyConsult": "Frotarte vigorosamente los ojos puede debilitar y deformar la córnea permanentemente, causando queratocono. Consulta al especialista para recibir gotas antialérgicas seguras.",
+    "whyConsult": "Frotarte vigorosamente los ojos puede debilitar y deformar la córnea permanentemente, causando queratocono. Las alergias severas pueden causar cicatrices en la córnea y disminución permanente de visión. Consulta al especialista para recibir el tratamiento adecuado.",
     "relatedConditions": [
       "cond-conjuntivitis-y-alergias",
       "cond-ojo-seco",
@@ -260,7 +261,7 @@ export const symptoms: Symptom[] = [
       "Astigmatismo irregular o queratocono avanzado",
       "Tracción o desgarro en la retina (especialmente los destellos de inicio súbito)"
     ],
-    "whyConsult": "La aparición repentina de destellos de luz (relámpagos) junto con manchas flotantes oscuras es una urgencia médica grave que requiere examen inmediato de fondo de ojo por desgarro o desprendimiento de retina.",
+    "whyConsult": "La aparición repentina de destellos de luz (relámpagos) junto con manchas flotantes oscuras amerita una revisión de fondo de ojo bajo dilatación para descartar agujeros o desgarros en la retina que podrían culminar en un desprendimiento de la retina.",
     "relatedConditions": [
       "cond-cataratas",
       "cond-queratocono",

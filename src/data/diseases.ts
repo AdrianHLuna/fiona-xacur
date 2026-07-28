@@ -34,15 +34,15 @@ export const diseases: MedicalCondition[] = [
     ],
     "faqs": [
       {
-        "question": "¿A qué edad es recomendable la cirugía láser para dejar de usar lentes?",
+        "question": "P: ¿A qué edad es recomendable la cirugía láser para dejar de usar lentes?",
         "answer": "Se recomienda realizarla a partir de los 18 años, siempre que la graduación se haya mantenido estable durante al menos un año y los estudios de topografía corneal descarten riesgos."
       },
       {
-        "question": "¿El astigmatismo puede curarse con gotas?",
+        "question": "P: ¿El astigmatismo puede curarse con gotas?",
         "answer": "No, las gotas oftálmicas o ejercicios visuales no pueden cambiar la forma física de la córnea. La corrección definitiva requiere anteojos, lentes de contacto o cirugía láser."
       },
       {
-        "question": "¿La cirugía refractiva es dolorosa?",
+        "question": "P: ¿La cirugía refractiva es dolorosa?",
         "answer": "El grado de dolor o molestia en un procedimiento es muy variable de acuerdo a la anatomía y el umbral del dolor de cada paciente. Si bien se utiliza anestesia local en gotas para minimizar las molestias, no es correcto afirmar que es totalmente indoloro para todos. Sin embargo, destaca por tener una recuperación rápida y altas tasas de precisión y seguridad."
       }
     ],
@@ -96,15 +96,15 @@ export const diseases: MedicalCondition[] = [
     "treatments": [
       "Lentes graduados de lectura, bifocales o progresivos",
       "Lentes de contacto multifocales",
-      "Cirugía refractiva con láser o recambio de cristalino por lente intraocular multifocal"
+      "Cirugía refractiva con láser monovisión o recambio de cristalino por lente intraocular multifocal"
     ],
     "faqs": [
       {
-        "question": "¿La presbicia se puede prevenir?",
+        "question": "P: ¿La presbicia se puede prevenir?",
         "answer": "No se puede prevenir, ya que es parte del proceso de envejecimiento natural del ojo. Sin embargo, su diagnóstico oportuno permite corregirla de inmediato para recuperar una calidad de vida excelente."
       },
       {
-        "question": "¿Si tengo hipermetropía desarrollaré presbicia más rápido?",
+        "question": "P: ¿Si tengo hipermetropía desarrollaré presbicia más rápido?",
         "answer": "Los pacientes hipermétropes suelen notar los síntomas de la presbicia antes que los pacientes con visión normal, ya que su ojo ya realiza un esfuerzo extra para enfocar de cerca."
       }
     ],
@@ -138,7 +138,7 @@ export const diseases: MedicalCondition[] = [
       "Presencia de una telita o carnosidad rojiza o blanquecina en el ojo",
       "Sensación constante de arenilla, basura o cuerpo extraño",
       "Ojo rojo, ardor, comezón y lagrimeo frecuente",
-      "Disminución de la visión si la carnosidad crece hasta cubrir el centro de la córnea"
+      "Disminución de la visión si la carnosidad crece ya que puede inducir astigmatismo aun antes de cubrir la pupila"
     ],
     "causes": [
       "Exposición prolongada e intensa a la luz solar ultravioleta (UV)",
@@ -163,11 +163,11 @@ export const diseases: MedicalCondition[] = [
     ],
     "faqs": [
       {
-        "question": "¿La carnosidad en el ojo puede volver a salir tras la cirugía?",
-        "answer": "Sí, si se realiza la técnica antigua de solo retirar el tejido. Por ello, la Dra. Fiona Xacur realiza la técnica moderna con autoinjerto conjuntival y adhesivo tisular, lo que reduce la probabilidad de reaparición a menos del 2%."
+        "question": "P: ¿La carnosidad en el ojo puede volver a salir tras la cirugía?",
+        "answer": "Sí puede volver a salir. Por ello, la Dra. Fiona Xacur realiza la técnica moderna con autoinjerto conjuntival y adhesivo tisular, lo que reduce la probabilidad de reaparición a 5-10%."
       },
       {
-        "question": "¿Cuándo es necesario operar un pterigión?",
+        "question": "P: ¿Cuándo es necesario operar un pterigión?",
         "answer": "Se opera si causa irritación constante que no cede con gotas, por cuestiones estéticas, si altera la graduación corneal causando astigmatismo, o si amenaza con cubrir el eje visual."
       }
     ],
@@ -209,13 +209,14 @@ export const diseases: MedicalCondition[] = [
       "Envejecimiento natural y desnaturalización de las proteínas del cristalino",
       "Golpes, traumatismos o cirugías previas en el ojo",
       "Enfermedades sistémicas mal controladas como la diabetes",
-      "Uso prolongado de corticoides orales u oftálmicos"
+      "Uso prolongado de corticoides orales, intranasales u oftálmicos"
     ],
     "riskFactors": [
       "Edad superior a los 60 años",
       "Diabetes mellitus mal controlada",
       "Exposición prolongada al sol sin lentes con filtro UV",
-      "Tabaquismo y obesidad"
+      "Tabaquismo y obesidad",
+      "Uso crónico de corticoides"
     ],
     "mexicoStats": "Se estima que las cataratas afectan a más de 350,000 personas al año en México, siendo la cirugía de catarata el procedimiento quirúrgico más seguro y realizado del país.",
     "complications": [
@@ -225,16 +226,15 @@ export const diseases: MedicalCondition[] = [
     ],
     "treatments": [
       "Cirugía de catarata por Facoemulsificación (ultrasonido de mínima incisión)",
-      "Implante de Lente Intraocular (LIO) Monofocal, Bifocal o Multifocal de última generación",
-      "Cirugía asistida por láser de femtosegundo"
+      "Implante de Lente Intraocular (LIO) Monofocal, Foco extendido o Multifocal de última generación"
     ],
     "faqs": [
       {
-        "question": "¿La catarata puede regresar después de operada?",
+        "question": "P: ¿La catarata puede regresar después de operada?",
         "answer": "No, la catarata no vuelve a salir. Lo que puede ocurrir es que la cápsula que sostiene el lente intraocular se vuelva opaca con los meses o años, lo cual se soluciona en consultorio de manera rápida e indolora con un rayo láser YAG."
       },
       {
-        "question": "¿La cirugía es segura para adultos mayores?",
+        "question": "P: ¿La cirugía es segura para adultos mayores?",
         "answer": "Sí, es uno de los procedimientos quirúrgicos más seguros del mundo. Se realiza bajo anestesia tópica (gotas) y de forma ambulatoria, lo que permite al paciente regresar a casa el mismo día."
       }
     ],
@@ -263,7 +263,7 @@ export const diseases: MedicalCondition[] = [
     "slug": "queratocono",
     "name": "Queratocono",
     "technicalName": "Ectasia Corneal Bilateral y Progresiva",
-    "description": "El queratocono es una enfermedad degenerativa y progresiva de la córnea en la que ésta se adelgaza y adopta una forma cónica irregular. Esta deformación altera la forma en que la luz entra al ojo, provocando una distorsión visual severa, miopía progresiva y astigmatismo irregular alto. Siendo especialista en Córnea, la Dra. Fiona Xacur ofrece un espectro completo de opciones desde adaptación de lentes esclerales hasta crosslinking corneal y anillos intracorneales.",
+    "description": "El queratocono es una enfermedad degenerativa y progresiva de la córnea en la que ésta se adelgaza y adopta una forma cónica irregular. Esta deformación altera la forma en que la luz entra al ojo, provocando una distorsión visual severa, miopía progresiva y astigmatismo irregular alto. Siendo especialista en Córnea, la Dra. Fiona Xacur ofrece un espectro completo de opciones desde adaptación de lentes esclerales hasta crosslinking corneal, anillos intracorneales y trasplante de córnea.",
     "symptoms": [
       "Visión borrosa y muy distorsionada a cualquier distancia",
       "Aumento constante y rápido de la graduación de astigmatismo",
@@ -293,11 +293,11 @@ export const diseases: MedicalCondition[] = [
     ],
     "faqs": [
       {
-        "question": "¿Cómo ayudan los lentes esclerales en el queratocono?",
+        "question": "P: ¿Cómo ayudan los lentes esclerales en el queratocono?",
         "answer": "Los lentes esclerales no tocan la córnea enferma; se apoyan en la esclera (la parte blanca del ojo) y crean una bóveda de líquido sobre la córnea, regularizando el paso de la luz y proporcionando una visión excelente que no se logra con lentes normales."
       },
       {
-        "question": "¿El queratocono se puede curar?",
+        "question": "P: ¿El queratocono se puede curar?",
         "answer": "No se cura del todo, pero actualmente existen tratamientos altamente efectivos como el Crosslinking que endurecen la córnea y frenan la progresión de la enfermedad, evitando la necesidad de un trasplante."
       }
     ],
@@ -340,7 +340,8 @@ export const diseases: MedicalCondition[] = [
       "Envejecimiento natural y cambios hormonales (menopausia)",
       "Factores ambientales (aire acondicionado, calor extremo, viento y polvo)",
       "Uso prolongado de pantallas y computadoras (se parpadea hasta un 50% menos)",
-      "Disfunción de las glándulas de Meibomio (blefaritis)"
+      "Disfunción de las glándulas de Meibomio (blefaritis)",
+      "Enfermedades sistémicas autoinmunes como enfermedad tiroidea, artritis reumatoide, síndrome de Sjögren, entre otros"
     ],
     "riskFactors": [
       "Vivir o trabajar en climas muy secos o con aire acondicionado constante",
@@ -352,21 +353,24 @@ export const diseases: MedicalCondition[] = [
     "complications": [
       "Microlesiones o queratitis en la superficie de la córnea",
       "Mayor propensión a infecciones oculares debido a la falta de la barrera defensiva lagrimal",
-      "Cicatrices corneales en casos extremos de sequedad grave"
+      "Cicatrices corneales y perforaciones en casos extremos de sequedad grave"
     ],
     "treatments": [
       "Lágrimas artificiales libres de conservadores y geles lubricantes",
       "Higiene de párpados y compresas tibias para blefaritis",
       "Tapones lagrimales (Punctum Plugs) para retener las lágrimas en el ojo",
-      "Medicamentos antiinflamatorios locales en gotas"
+      "Medicamentos antiinflamatorios locales en gotas",
+      "Gotas de suero autólogo",
+      "Tratamiento de luz pulsada intensa",
+      "Barreras mecánicas como lente de contacto terapéutico o lentes tipo gogle"
     ],
     "faqs": [
       {
-        "question": "¿Por qué me lloran los ojos si me dicen que tengo ojo seco?",
+        "question": "P: ¿Por qué me lloran los ojos si me dicen que tengo ojo seco?",
         "answer": "Es una respuesta refleja. Al estar la superficie del ojo irritada y seca, el cerebro envía una señal de emergencia para producir lágrimas abundantes, pero estas lágrimas son de mala calidad (agua pura sin grasa) y se evaporan rápido, dejando el ojo seco de nuevo."
       },
       {
-        "question": "¿El ojo seco se cura?",
+        "question": "P: ¿El ojo seco se cura?",
         "answer": "Es una condición crónica que se controla. Con el tratamiento adecuado, modificando hábitos y manteniendo lubricados los ojos, los síntomas desaparecen y se protege la salud de la córnea."
       }
     ],
@@ -430,11 +434,11 @@ export const diseases: MedicalCondition[] = [
     ],
     "faqs": [
       {
-        "question": "¿Qué debo hacer si sospecho de una úlcera corneal?",
-        "answer": "Debes acudir a urgencias de oftalmología de inmediato. Retira cualquier lente de contacto y no te apliques gotas automedicadas (especialmente cortisona, que puede agravar la infección severamente)."
+        "question": "P: ¿Qué debo hacer si sospecho de una úlcera corneal?",
+        "answer": "Debes acudir a urgencias de oftalmología de inmediato. Retira cualquier lente de contacto y no te apliques gotas automedicadas (especialmente corticoides, que pueden agravar la infección severamente)."
       },
       {
-        "question": "¿Una úlcera corneal deja cicatriz?",
+        "question": "P: ¿Una úlcera corneal deja cicatriz?",
         "answer": "Si la úlcera es profunda y se ubica en el centro de la córnea, al sanar suele dejar una cicatriz blanca (leucoma). Dependiendo de su tamaño, puede requerir una cirugía posterior o trasplante de córnea para recuperar la visión."
       }
     ],
@@ -465,7 +469,7 @@ export const diseases: MedicalCondition[] = [
     "slug": "glaucoma",
     "name": "Glaucoma",
     "technicalName": "Glaucoma de Ángulo Abierto y Cerrado",
-    "description": "El glaucoma es una afección del nervio óptico caracterizada comúnmente por una presión intraocular elevada. Al dañar las fibras nerviosas que transmiten las imágenes al cerebro, provoca una pérdida progresiva de la visión periférica. Se le conoce como el 'ladrón silencioso de la vista' porque no causa dolor ni síntomas evidentes en sus inicios, y la pérdida visual es irreversible.",
+    "description": "El glaucoma es un desgaste progresivo del nervio óptico. Al dañar las fibras nerviosas que transmiten las imágenes al cerebro, provoca una pérdida progresiva de la visión periférica. Puede acompañarse de presión intraocular elevada. Se le conoce como el 'ladrón silencioso de la vista' porque no causa dolor ni síntomas evidentes en sus inicios, y la pérdida visual es irreversible.",
     "symptoms": [
       "Pérdida gradual de la visión periférica o lateral (visión en túnel)",
       "Dolor ocular agudo repentino (en crisis de glaucoma de ángulo cerrado)",
@@ -474,18 +478,19 @@ export const diseases: MedicalCondition[] = [
     ],
     "causes": [
       "Falla en el sistema de drenaje natural del ojo (humor acuoso)",
-      "Elevación de la presión intraocular que comprime el nervio óptico",
-      "Mala perfusión o flujo sanguíneo deficiente al nervio"
+      "Elevación de la presión intraocular",
+      "Mala perfusión o flujo sanguíneo deficiente al nervio óptico"
     ],
     "riskFactors": [
       "Presión intraocular elevada",
       "Edad mayor a los 40 años",
       "Antecedentes familiares directos de glaucoma",
-      "Miopía o hipermetropía alta, o diabetes mellitus"
+      "Miopía o hipermetropía alta, o diabetes mellitus",
+      "Traumatismos oculares previos"
     ],
     "mexicoStats": "El glaucoma es la segunda causa de ceguera irreversible en México. Se calcula que más del 50% de quienes lo padecen no están diagnosticados por falta de chequeos anuales.",
     "complications": [
-      "Pérdida permanente e irreversible del campo visual lateral",
+      "Pérdida permanente e irreversible del campo visual periférica",
       "Ceguera total si no se controla adecuadamente"
     ],
     "treatments": [
@@ -495,11 +500,11 @@ export const diseases: MedicalCondition[] = [
     ],
     "faqs": [
       {
-        "question": "¿El glaucoma se puede curar?",
+        "question": "P: ¿El glaucoma se puede curar?",
         "answer": "No tiene cura y la visión perdida no se recupera, pero se puede controlar con gran éxito mediante gotas o cirugía para detener el avance y preservar la visión restante."
       },
       {
-        "question": "¿Cómo se detecta?",
+        "question": "P: ¿Cómo se detecta?",
         "answer": "Se detecta mediante una consulta completa donde se mide la presión del ojo (tonometría), se revisa el nervio óptico bajo dilatación de pupila y se realizan campos visuales y tomografía del nervio (OCT)."
       }
     ],
@@ -536,7 +541,7 @@ export const diseases: MedicalCondition[] = [
       "Pérdida de la visión central o áreas oscuras en el campo visual"
     ],
     "causes": [
-      "Daño microvascular retiniano causado por niveles crónicamente altos de glucosa (retinopatía)",
+      "Daño microvascular retiniano causado por niveles crónicamente altos de glucosa (retinopatía) o de presión arterial",
       "Reacciones autoinmunes, infecciones (toxoplasmosis, tuberculosis) o traumas (uveítis)"
     ],
     "riskFactors": [
@@ -557,12 +562,12 @@ export const diseases: MedicalCondition[] = [
     ],
     "faqs": [
       {
-        "question": "¿Cada cuánto debe revisarse los ojos un paciente diabético?",
+        "question": "P: ¿Cada cuánto debe revisarse los ojos un paciente diabético?",
         "answer": "Todo paciente con diabetes debe someterse a una revisión de fondo de ojo con pupila dilatada al menos una vez al año, incluso si considera que ve perfectamente."
       },
       {
-        "question": "¿Qué es la uveítis?",
-        "answer": "Es la inflamación interna del ojo. A diferencia de una conjuntivitis común, la uveítis compromete estructuras internas y puede causar daño severo permanente si no se trata rápido con gotas esteroideas."
+        "question": "P: ¿Qué es la uveítis?",
+        "answer": "Es la inflamación interna del ojo. A diferencia de una conjuntivitis común, la uveítis compromete estructuras internas y puede causar daño severo permanente si no se trata con prontitud."
       }
     ],
     "sources": [],
@@ -612,7 +617,8 @@ export const diseases: MedicalCondition[] = [
     "complications": [
       "Afectación de la córnea (queratitis) en casos bacterianos graves no tratados",
       "Infección crónica por el frotamiento persistente que puede dañar la córnea",
-      "Disminución temporal de la visión si la secreción ocular es abundante"
+      "Disminución temporal de la visión si la secreción ocular es abundante",
+      "Cicatrices en la conjuntiva y en la córnea"
     ],
     "treatments": [
       "Uso de lubricantes oculares (lágrimas artificiales) frías para aliviar la irritación",
@@ -621,15 +627,15 @@ export const diseases: MedicalCondition[] = [
     ],
     "faqs": [
       {
-        "question": "¿Cómo puedo evitar contagiar la conjuntivitis a mi familia?",
+        "question": "P: ¿Cómo puedo evitar contagiar la conjuntivitis a mi familia?",
         "answer": "Lávate las manos frecuentemente con agua y jabón, no te frotes los ojos, utiliza toallas y fundas de almohada individuales y cámbialas a diario. Suspende temporalmente el uso de maquillaje y lentes de contacto."
       },
       {
-        "question": "¿Cuál es la diferencia entre la conjuntivitis alérgica y la infecciosa?",
-        "answer": "La alérgica suele afectar a ambos ojos simultáneamente, produce una comezón intensa y secreción acuosa o hialina. La infecciosa puede empezar en un solo ojo, suele acompañarse de secreción espesa amarillenta o verdosa (lagañas) y es muy contagiosa."
+        "question": "P: ¿Cuál es la diferencia entre la conjuntivitis alérgica y la infecciosa?",
+        "answer": "La alérgica produce una comezón intensa y secreción acuosa o hialina. La infecciosa puede empezar en un solo ojo, suele acompañarse de secreción espesa amarillenta o verdosa (lagañas) y es muy contagiosa."
       },
       {
-        "question": "¿Es bueno usar gotas de manzanilla para la conjuntivitis?",
+        "question": "P: ¿Es bueno usar gotas de manzanilla para la conjuntivitis?",
         "answer": "No se recomienda el uso de remedios caseros como té de manzanilla, ya que no son estériles y pueden introducir bacterias, hongos o partículas de plantas al ojo, empeorando la inflamación o causando una infección secundaria grave."
       }
     ],

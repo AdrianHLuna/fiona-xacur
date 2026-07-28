@@ -39,18 +39,18 @@
     ],
     "schedule": "Cliniteq MID: Lun, Mie, Vie 8:00-13:00, Lun, Jue 17:00-19:00 | Medytec: Mar, Jue 8:00-13:00, Sáb 9:00-14:00",
     "photo": "/images/doctor.webp",
-    "bio": "Soy la Dra. Fiona Carolina Xacur García, cirujana oftalmóloga egresada de la Universidad Autónoma de Yucatán (UADY) con especialidad en Oftalmología por la Universidad Nacional Autónoma de México (UNAM). Cuento con un diploma de alta especialización en Córnea y Cirugía Refractiva. Con más de 15 años de trayectoria profesional, he atendido a más de 25,000 pacientes y realizado más de 6,500 cirugías oculares exitosas. Mi práctica médica en Mérida está enfocada en brindar la máxima precisión clínica y quirúrgica mediante tecnología láser de vanguardia para la restauración de la salud visual de mis pacientes.",
+    "bio": "Soy la Dra. Fiona Carolina Xacur García, cirujana oftalmóloga egresada de la Universidad Autónoma de Yucatán (UADY) con especialidad en Oftalmología por la Universidad Nacional Autónoma de México (UNAM). Cuento con un diploma de alta especialización en Córnea y Cirugía Refractiva. Con más de 15 años de trayectoria profesional, he atendido a más de 25,000 pacientes y realizado más de 5,000 cirugías oculares exitosas. Mi práctica médica en Mérida está enfocada en brindar la máxima precisión clínica y quirúrgica mediante tecnología de vanguardia para la restauración de la salud visual de mis pacientes.",
     "philosophy": "Preservar y recuperar el valioso tesoro de la visión mediante tratamientos personalizados, calidez humana y la más avanzada tecnología quirúrgica.",
     "experience": [
       {
-        "year": "2011 - Presente",
-        "title": "Práctica Privada en Mérida (Cliniteq MID y Medytec)",
-        "description": "Especialista en cirugía refractiva láser LASIK, implante de lentes intraoculares para catarata, adaptación de lentes esclerales y manejo avanzado de queratocono."
+        "year": "2011",
+        "title": "Presente - Práctica Privada en Mérida (Cliniteq MID y Medytec)",
+        "description": "Especialista en cirugía refractiva láser LASIK, implante de lentes intraoculares para catarata, adaptación de lentes esclerales y manejo avanzado de queratocono, enfermedades de la córnea y superficie ocular, trasplante de córnea."
       },
       {
         "year": "Trayectoria",
         "title": "Trayectoria Médica y Quirúrgica",
-        "description": "Más de 15 años de experiencia clínica realizando microcirugía ocular y corrección de vicios de refracción (miopía, astigmatismo, hipermetropía)."
+        "description": "Más de 15 años de experiencia clínica realizando microcirugía ocular y corrección de defectos refractivos (miopía, astigmatismo, hipermetropía)."
       }
     ],
     "certifications": [
@@ -75,7 +75,7 @@
       {
         "degree": "Médico Cirujano",
         "institution": "Universidad Autónoma de Yucatán (UADY)",
-        "year": "2005"
+        "year": "2004"
       },
       {
         "degree": "Especialidad en Oftalmología",
@@ -98,15 +98,15 @@
       "id": "serv-consulta-general",
       "slug": "consulta-oftalmologica-general",
       "name": "Consulta Oftalmológica General y Subsecuente",
-      "description": "Evaluación clínica completa de la agudeza visual y la salud ocular, que incluye graduación digital de lentes, toma de presión intraocular y examen detallado de fondo de ojo.",
+      "description": "Evaluación clínica completa de la agudeza visual y la salud ocular, que incluye graduación de lentes, toma de presión intraocular , biomicroscopía y examen de fondo de ojo.",
       "longDescription": "La consulta oftalmológica general realizada por la Dra. Fiona Xacur evalúa minuciosamente el estado de salud de tus ojos. Incluye la medición digital de tu agudeza visual, examen con lámpara de hendidura de las estructuras del ojo (córnea, iris, conjuntiva), tonometría para medir la presión intraocular (previniendo el glaucoma), y la exploración bajo dilatación pupilar de tu retina y nervio óptico. Es vital para detectar de manera temprana padecimientos que ponen en riesgo tu visión.",
       "type": "consultorio",
-      "anesthesiaType": "Gotas dilatadoras y anestésicas (si se requiere tonometría)",
+      "anesthesiaType": "Gotas dilatadoras y anestésicas (si se requiere)",
       "duration": "30 a 45 minutos",
       "recoveryTime": "Inmediata (se sugiere llevar lentes de sol por la dilatación pupilar)",
       "isPainful": false,
       "benefits": [
-        "Precisión absoluta en la graduación de tus lentes",
+        "Precisión en la graduación de tus lentes",
         "Detección y tratamiento oportuno de enfermedades oculares asintomáticas",
         "Descarte y control de presión intraocular elevada (glaucoma)",
         "Evaluación experta de la córnea y la superficie ocular"
@@ -114,11 +114,12 @@
       "postOpRecommendations": [
         "Traer lentes de sol para mitigar la luz solar a la salida de la consulta debido a las gotas dilatadoras.",
         "Evitar conducir vehículos en las siguientes 3 a 4 horas tras la dilatación de pupila.",
-        "Presentar tus anteojos de uso habitual para comparar tu visión."
+        "Presentar tus anteojos de uso habitual para comparar tu visión.",
+        "Dentro de lo posible, acudir sin maquillaje en los ojos."
       ],
       "priceRange": "$1,000 MXN",
       "technicalSpecs": {
-        "Equipos": "Autorefractómetro digital Nidek, Lámpara de hendidura con fotografía, Tonómetro de aplanamiento Goldmann",
+        "Equipos": "Autorefractómetro digital Nidek, Lámpara de hendidura con fotografía, Tonómetro de mínimo contacto icare",
         "Indicación": "Chequeo visual anual recomendado para niños, adultos y pacientes diabéticos"
       },
       "relatedConditions": [
@@ -144,10 +145,10 @@
       "id": "serv-adaptacion-lentes-esclerales",
       "slug": "adaptacion-lentes-esclerales",
       "name": "Adaptación de Lentes de Contacto Esclerales",
-      "description": "Estudio y adaptación personalizada de lentes esclerales rígidos permeables al gas, diseñados para regularizar la córnea y devolver la agudeza visual en queratocono o córneas irregulares.",
-      "longDescription": "La adaptación de lentes esclerales es un procedimiento altamente especializado enfocado en pacientes con córneas sumamente irregulares, queratocono avanzado o sequedad ocular extrema. A diferencia de los lentes de contacto rígidos tradicionales, el lente escleral es más grande y se apoya en la esclera (la parte blanca del ojo), pasando por encima de la córnea sin tocarla. El espacio intermedio se llena con solución salina estéril, creando una superficie refractiva perfecta que proporciona una visión nítida excepcional y alivio de síntomas de ojo seco.",
+      "description": "Estudio y adaptación personalizada de lentes esclerales rígidos permeables al gas, diseñados para mejorar la agudeza visual en queratocono o córneas irregulares.",
+      "longDescription": "La adaptación de lentes esclerales es un procedimiento altamente especializado enfocado en pacientes con córneas sumamente irregulares, queratocono avanzado o sequedad ocular extrema. A diferencia de los lentes de contacto rígidos tradicionales, el lente escleral es más grande y se apoya en la esclera (la parte blanca del ojo), pasando por encima de la córnea sin tocarla. El espacio intermedio se llena con solución salina estéril, creando una superficie refractiva regular que proporciona una visión nítida excepcional y alivio de síntomas de ojo seco.",
       "type": "consultorio",
-      "anesthesiaType": "Ninguna",
+      "anesthesiaType": "Gotas anestésicas de tetracaína",
       "duration": "60 minutos",
       "recoveryTime": "Inmediata",
       "isPainful": false,
@@ -161,7 +162,7 @@
         "La consulta incluye la manipulación con lentes de prueba en consultorio para evaluar la adaptación óptima.",
         "El costo cubre la consulta de adaptación y pruebas; no incluye el costo de fabricación de los lentes personalizados."
       ],
-      "priceRange": "$1,000 MXN (Consulta de adaptación)",
+      "priceRange": "$1,000 MXN (Consulta de adaptación) + $2,000 (topografía de la córnea)",
       "technicalSpecs": {
         "Estudio": "Prueba de lentes esclerales de diagnóstico, mapeo topográfico corneal",
         "Material del lente": "Polímero rígido altamente permeable al oxígeno (gas permeable)"
@@ -187,10 +188,10 @@
       "id": "serv-valoracion-cirugia-lasik",
       "slug": "valoracion-cirugia-lasik",
       "name": "Valoración para Cirugía Refractiva Láser (LASIK)",
-      "description": "Protocolo diagnóstico para determinar la candidatura del paciente a cirugía refractiva láser LASIK o PRK, que incluye topografía corneal avanzada y paquimetría ultrasónica.",
-      "longDescription": "Antes de realizar una cirugía refractiva láser para corregir miopía, astigmatismo o hipermetropía, es indispensable realizar una valoración minuciosa de la córnea. Este servicio incluye una consulta clínica detallada, una topografía corneal digitalizada (para mapear el relieve, curvatura y regularidad de la córnea) y una paquimetría (medición ultrasónica del grosor corneal). Con estos estudios, la Dra. Fiona Xacur determina si la córnea del paciente tiene las condiciones ideales de grosor y forma para someterse a la remodelación con el láser excímer SCHWIND AMARIS 500E de forma 100% segura, descartando enfermedades como el queratocono subclínico.",
+      "description": "Protocolo diagnóstico para determinar la candidatura del paciente a cirugía refractiva láser LASIK o PRK, que incluye topografía corneal avanzada y paquimetría.",
+      "longDescription": "Antes de realizar una cirugía refractiva láser para corregir miopía, astigmatismo o hipermetropía, es indispensable realizar una valoración minuciosa de la córnea. Este servicio incluye una consulta clínica detallada, una topografía corneal digitalizada (para mapear el relieve, curvatura y regularidad de la córnea) y una paquimetría (medición del grosor corneal). Con estos estudios, la Dra. Fiona Xacur determina si la córnea del paciente tiene las condiciones ideales de grosor y forma para someterse a la remodelación con el láser excímer SCHWIND AMARIS 500E de forma 100% segura, descartando enfermedades como el queratocono subclínico.",
       "type": "consultorio",
-      "anesthesiaType": "Anestesia tópica en gotas para la toma de paquimetría",
+      "anesthesiaType": "Anestesia tópica en gotas",
       "duration": "45 a 60 minutos",
       "recoveryTime": "Inmediata",
       "isPainful": false,
@@ -203,7 +204,7 @@
         "Suspender el uso de lentes de contacto blandos al menos 7 a 10 días antes del estudio (15 días si son rígidos).",
         "Llevar lentes oscuros por la dilatación pupilar de la consulta."
       ],
-      "priceRange": "Consulta de valoración con estudios incluidos",
+      "priceRange": "Consulta de valoración con estudios incluidos $2,500-3,100",
       "technicalSpecs": {
         "Estudios incluidos": "Topografía corneal computarizada, Paquimetría de espesor corneal",
         "Tecnología Láser": "Láser Excímer SCHWIND AMARIS 500E",
@@ -230,7 +231,7 @@
       "slug": "valoracion-cirugia-catarata",
       "name": "Valoración para Cirugía de Catarata",
       "description": "Estudio integral para planificar la cirugía de catarata, que incluye el cálculo del lente intraocular por interferometría óptica y el conteo de células endoteliales de la córnea.",
-      "longDescription": "La valoración preoperatoria para cirugía de catarata es fundamental para garantizar el éxito visual. Este protocolo incluye el cálculo de precisión del lente intraocular (LIO) mediante interferometría láser, que determina la potencia del lente que reemplazará el cristalino dañado. Asimismo, se realiza un conteo celular endotelial por microscopía especular, que evalúa la salud y densidad de la capa interna de la córnea para asegurar que ésta tolere el procedimiento quirúrgico de facoemulsificación con la mayor seguridad y sin riesgos de descompensación posterior.",
+      "longDescription": "La valoración preoperatoria para cirugía de catarata es fundamental para garantizar el éxito visual. Este protocolo incluye el cálculo de precisión del lente intraocular (LIO) mediante interferometría, que determina la potencia del lente que reemplazará el cristalino dañado. Asimismo, se realiza un conteo celular endotelial por microscopía especular, que evalúa la salud y densidad de la capa interna de la córnea para asegurar que ésta tolere el procedimiento quirúrgico de facoemulsificación con la mayor seguridad y sin riesgos de descompensación posterior.",
       "type": "consultorio",
       "anesthesiaType": "Ninguna",
       "duration": "45 a 60 minutos",
@@ -245,7 +246,7 @@
         "No requiere preparación previa especial.",
         "Traer recetas previas de anteojos y estudios generales si cuenta con ellos."
       ],
-      "priceRange": "Consulta de valoración con cálculo e interferometría",
+      "priceRange": "Consulta de valoración con cálculo de lente intraocular por interferometría y conteo celular endotelial por microscopía especular $3,800-5,300",
       "technicalSpecs": {
         "Estudios incluidos": "Biometría ocular por interferometría láser, Conteo celular endotelial (Microscopía especular)",
         "Tecnología": "Cálculo de lente intraocular de última generación"
@@ -279,13 +280,13 @@
       "benefits": [
         "Diagnóstico precoz del queratocono antes de que dañe severamente la visión",
         "Detección exacta de la progresión de la ectasia corneal comparando estudios previos",
-        "Determinación del tratamiento óptimo (crosslinking, anillos o lentes esclerales)"
+        "Determinación del tratamiento óptimo (lentes esclerales, crosslinking, anillos o trasplante de córnea)"
       ],
       "postOpRecommendations": [
         "En caso de usar lentes de contacto, suspender su uso antes de la cita según indicación médica.",
         "Asistir con estudios topográficos previos para poder realizar análisis comparativos de progresión."
       ],
-      "priceRange": "Consulta de valoración especializada con topografía y paquimetría",
+      "priceRange": "Consulta de valoración especializada con topografía y paquimetría $1,000-$3000",
       "technicalSpecs": {
         "Estudios incluidos": "Topografía corneal digitalizada, Paquimetría de mapa corneal",
         "Indicación": "Pacientes diagnosticados o con sospecha de queratocono por astigmatismo irregular"
@@ -399,9 +400,10 @@
       "causes": [
         "Síndrome de Ojo Seco evaporativo o acuodeficiente",
         "Blefaritis posterior (glándulas de Meibomio obstruidas)",
-        "Clima caluroso o uso excesivo de aire acondicionado"
+        "Clima caluroso o uso excesivo de aire acondicionado",
+        "Enfermedades sistémicas como la artritis reumatoide o el síndrome de Sjögren"
       ],
-      "whyConsult": "Consulta si el ardor y la irritación ocular son diarios y te dificultan el trabajo frente a computadoras, o si el ojo lagrimea constantemente sin causa aparente.",
+      "whyConsult": "Consulta si el ardor y la irritación ocular son frecuentes e interfieren con tu vida cotidiana, o si el ojo lagrimea constantemente sin causa aparente.",
       "relatedConditions": [
         "cond-ojo-seco"
       ],
@@ -455,7 +457,7 @@
         "Pterigión inflamado",
         "Presencia real de un cuerpo extraño (rebaba, polvo, insecto) o pestaña invertida"
       ],
-      "whyConsult": "Acude a consulta si la sensación persiste por más de 24 horas, si el ojo se enrojece intensamente, o si sospechas de la presencia de un cuerpo extraño incrustado para evitar una úlcera corneal.",
+      "whyConsult": "Acude a consulta si la sensación es persistente, si el ojo se enrojece intensamente, o si sospechas de la presencia de un cuerpo extraño incrustado para evitar una úlcera corneal.",
       "relatedConditions": [
         "cond-ojo-seco",
         "cond-pterigion",
@@ -538,7 +540,7 @@
         "Blefaritis (inflamación e infección grasa en el borde palpebral)",
         "Uso de cosméticos irritantes o falta de lubricación (ojo seco)"
       ],
-      "whyConsult": "Frotarte vigorosamente los ojos puede debilitar y deformar la córnea permanentemente, causando queratocono. Consulta al especialista para recibir gotas antialérgicas seguras.",
+      "whyConsult": "Frotarte vigorosamente los ojos puede debilitar y deformar la córnea permanentemente, causando queratocono. Las alergias severas pueden causar cicatrices en la córnea y disminución permanente de visión. Consulta al especialista para recibir el tratamiento adecuado.",
       "relatedConditions": [
         "cond-conjuntivitis-y-alergias",
         "cond-ojo-seco",
@@ -566,7 +568,7 @@
         "Astigmatismo irregular o queratocono avanzado",
         "Tracción o desgarro en la retina (especialmente los destellos de inicio súbito)"
       ],
-      "whyConsult": "La aparición repentina de destellos de luz (relámpagos) junto con manchas flotantes oscuras es una urgencia médica grave que requiere examen inmediato de fondo de ojo por desgarro o desprendimiento de retina.",
+      "whyConsult": "La aparición repentina de destellos de luz (relámpagos) junto con manchas flotantes oscuras amerita una revisión de fondo de ojo bajo dilatación para descartar agujeros o desgarros en la retina que podrían culminar en un desprendimiento de la retina.",
       "relatedConditions": [
         "cond-cataratas",
         "cond-queratocono",
@@ -620,15 +622,15 @@
       ],
       "faqs": [
         {
-          "question": "¿A qué edad es recomendable la cirugía láser para dejar de usar lentes?",
+          "question": "P: ¿A qué edad es recomendable la cirugía láser para dejar de usar lentes?",
           "answer": "Se recomienda realizarla a partir de los 18 años, siempre que la graduación se haya mantenido estable durante al menos un año y los estudios de topografía corneal descarten riesgos."
         },
         {
-          "question": "¿El astigmatismo puede curarse con gotas?",
+          "question": "P: ¿El astigmatismo puede curarse con gotas?",
           "answer": "No, las gotas oftálmicas o ejercicios visuales no pueden cambiar la forma física de la córnea. La corrección definitiva requiere anteojos, lentes de contacto o cirugía láser."
         },
         {
-          "question": "¿La cirugía refractiva es dolorosa?",
+          "question": "P: ¿La cirugía refractiva es dolorosa?",
           "answer": "El grado de dolor o molestia en un procedimiento es muy variable de acuerdo a la anatomía y el umbral del dolor de cada paciente. Si bien se utiliza anestesia local en gotas para minimizar las molestias, no es correcto afirmar que es totalmente indoloro para todos. Sin embargo, destaca por tener una recuperación rápida y altas tasas de precisión y seguridad."
         }
       ],
@@ -682,15 +684,15 @@
       "treatments": [
         "Lentes graduados de lectura, bifocales o progresivos",
         "Lentes de contacto multifocales",
-        "Cirugía refractiva con láser o recambio de cristalino por lente intraocular multifocal"
+        "Cirugía refractiva con láser monovisión o recambio de cristalino por lente intraocular multifocal"
       ],
       "faqs": [
         {
-          "question": "¿La presbicia se puede prevenir?",
+          "question": "P: ¿La presbicia se puede prevenir?",
           "answer": "No se puede prevenir, ya que es parte del proceso de envejecimiento natural del ojo. Sin embargo, su diagnóstico oportuno permite corregirla de inmediato para recuperar una calidad de vida excelente."
         },
         {
-          "question": "¿Si tengo hipermetropía desarrollaré presbicia más rápido?",
+          "question": "P: ¿Si tengo hipermetropía desarrollaré presbicia más rápido?",
           "answer": "Los pacientes hipermétropes suelen notar los síntomas de la presbicia antes que los pacientes con visión normal, ya que su ojo ya realiza un esfuerzo extra para enfocar de cerca."
         }
       ],
@@ -724,7 +726,7 @@
         "Presencia de una telita o carnosidad rojiza o blanquecina en el ojo",
         "Sensación constante de arenilla, basura o cuerpo extraño",
         "Ojo rojo, ardor, comezón y lagrimeo frecuente",
-        "Disminución de la visión si la carnosidad crece hasta cubrir el centro de la córnea"
+        "Disminución de la visión si la carnosidad crece ya que puede inducir astigmatismo aun antes de cubrir la pupila"
       ],
       "causes": [
         "Exposición prolongada e intensa a la luz solar ultravioleta (UV)",
@@ -749,11 +751,11 @@
       ],
       "faqs": [
         {
-          "question": "¿La carnosidad en el ojo puede volver a salir tras la cirugía?",
-          "answer": "Sí, si se realiza la técnica antigua de solo retirar el tejido. Por ello, la Dra. Fiona Xacur realiza la técnica moderna con autoinjerto conjuntival y adhesivo tisular, lo que reduce la probabilidad de reaparición a menos del 2%."
+          "question": "P: ¿La carnosidad en el ojo puede volver a salir tras la cirugía?",
+          "answer": "Sí puede volver a salir. Por ello, la Dra. Fiona Xacur realiza la técnica moderna con autoinjerto conjuntival y adhesivo tisular, lo que reduce la probabilidad de reaparición a 5-10%."
         },
         {
-          "question": "¿Cuándo es necesario operar un pterigión?",
+          "question": "P: ¿Cuándo es necesario operar un pterigión?",
           "answer": "Se opera si causa irritación constante que no cede con gotas, por cuestiones estéticas, si altera la graduación corneal causando astigmatismo, o si amenaza con cubrir el eje visual."
         }
       ],
@@ -795,13 +797,14 @@
         "Envejecimiento natural y desnaturalización de las proteínas del cristalino",
         "Golpes, traumatismos o cirugías previas en el ojo",
         "Enfermedades sistémicas mal controladas como la diabetes",
-        "Uso prolongado de corticoides orales u oftálmicos"
+        "Uso prolongado de corticoides orales, intranasales u oftálmicos"
       ],
       "riskFactors": [
         "Edad superior a los 60 años",
         "Diabetes mellitus mal controlada",
         "Exposición prolongada al sol sin lentes con filtro UV",
-        "Tabaquismo y obesidad"
+        "Tabaquismo y obesidad",
+        "Uso crónico de corticoides"
       ],
       "mexicoStats": "Se estima que las cataratas afectan a más de 350,000 personas al año en México, siendo la cirugía de catarata el procedimiento quirúrgico más seguro y realizado del país.",
       "complications": [
@@ -811,16 +814,15 @@
       ],
       "treatments": [
         "Cirugía de catarata por Facoemulsificación (ultrasonido de mínima incisión)",
-        "Implante de Lente Intraocular (LIO) Monofocal, Bifocal o Multifocal de última generación",
-        "Cirugía asistida por láser de femtosegundo"
+        "Implante de Lente Intraocular (LIO) Monofocal, Foco extendido o Multifocal de última generación"
       ],
       "faqs": [
         {
-          "question": "¿La catarata puede regresar después de operada?",
+          "question": "P: ¿La catarata puede regresar después de operada?",
           "answer": "No, la catarata no vuelve a salir. Lo que puede ocurrir es que la cápsula que sostiene el lente intraocular se vuelva opaca con los meses o años, lo cual se soluciona en consultorio de manera rápida e indolora con un rayo láser YAG."
         },
         {
-          "question": "¿La cirugía es segura para adultos mayores?",
+          "question": "P: ¿La cirugía es segura para adultos mayores?",
           "answer": "Sí, es uno de los procedimientos quirúrgicos más seguros del mundo. Se realiza bajo anestesia tópica (gotas) y de forma ambulatoria, lo que permite al paciente regresar a casa el mismo día."
         }
       ],
@@ -849,7 +851,7 @@
       "slug": "queratocono",
       "name": "Queratocono",
       "technicalName": "Ectasia Corneal Bilateral y Progresiva",
-      "description": "El queratocono es una enfermedad degenerativa y progresiva de la córnea en la que ésta se adelgaza y adopta una forma cónica irregular. Esta deformación altera la forma en que la luz entra al ojo, provocando una distorsión visual severa, miopía progresiva y astigmatismo irregular alto. Siendo especialista en Córnea, la Dra. Fiona Xacur ofrece un espectro completo de opciones desde adaptación de lentes esclerales hasta crosslinking corneal y anillos intracorneales.",
+      "description": "El queratocono es una enfermedad degenerativa y progresiva de la córnea en la que ésta se adelgaza y adopta una forma cónica irregular. Esta deformación altera la forma en que la luz entra al ojo, provocando una distorsión visual severa, miopía progresiva y astigmatismo irregular alto. Siendo especialista en Córnea, la Dra. Fiona Xacur ofrece un espectro completo de opciones desde adaptación de lentes esclerales hasta crosslinking corneal, anillos intracorneales y trasplante de córnea.",
       "symptoms": [
         "Visión borrosa y muy distorsionada a cualquier distancia",
         "Aumento constante y rápido de la graduación de astigmatismo",
@@ -879,11 +881,11 @@
       ],
       "faqs": [
         {
-          "question": "¿Cómo ayudan los lentes esclerales en el queratocono?",
+          "question": "P: ¿Cómo ayudan los lentes esclerales en el queratocono?",
           "answer": "Los lentes esclerales no tocan la córnea enferma; se apoyan en la esclera (la parte blanca del ojo) y crean una bóveda de líquido sobre la córnea, regularizando el paso de la luz y proporcionando una visión excelente que no se logra con lentes normales."
         },
         {
-          "question": "¿El queratocono se puede curar?",
+          "question": "P: ¿El queratocono se puede curar?",
           "answer": "No se cura del todo, pero actualmente existen tratamientos altamente efectivos como el Crosslinking que endurecen la córnea y frenan la progresión de la enfermedad, evitando la necesidad de un trasplante."
         }
       ],
@@ -926,7 +928,8 @@
         "Envejecimiento natural y cambios hormonales (menopausia)",
         "Factores ambientales (aire acondicionado, calor extremo, viento y polvo)",
         "Uso prolongado de pantallas y computadoras (se parpadea hasta un 50% menos)",
-        "Disfunción de las glándulas de Meibomio (blefaritis)"
+        "Disfunción de las glándulas de Meibomio (blefaritis)",
+        "Enfermedades sistémicas autoinmunes como enfermedad tiroidea, artritis reumatoide, síndrome de Sjögren, entre otros"
       ],
       "riskFactors": [
         "Vivir o trabajar en climas muy secos o con aire acondicionado constante",
@@ -938,21 +941,24 @@
       "complications": [
         "Microlesiones o queratitis en la superficie de la córnea",
         "Mayor propensión a infecciones oculares debido a la falta de la barrera defensiva lagrimal",
-        "Cicatrices corneales en casos extremos de sequedad grave"
+        "Cicatrices corneales y perforaciones en casos extremos de sequedad grave"
       ],
       "treatments": [
         "Lágrimas artificiales libres de conservadores y geles lubricantes",
         "Higiene de párpados y compresas tibias para blefaritis",
         "Tapones lagrimales (Punctum Plugs) para retener las lágrimas en el ojo",
-        "Medicamentos antiinflamatorios locales en gotas"
+        "Medicamentos antiinflamatorios locales en gotas",
+        "Gotas de suero autólogo",
+        "Tratamiento de luz pulsada intensa",
+        "Barreras mecánicas como lente de contacto terapéutico o lentes tipo gogle"
       ],
       "faqs": [
         {
-          "question": "¿Por qué me lloran los ojos si me dicen que tengo ojo seco?",
+          "question": "P: ¿Por qué me lloran los ojos si me dicen que tengo ojo seco?",
           "answer": "Es una respuesta refleja. Al estar la superficie del ojo irritada y seca, el cerebro envía una señal de emergencia para producir lágrimas abundantes, pero estas lágrimas son de mala calidad (agua pura sin grasa) y se evaporan rápido, dejando el ojo seco de nuevo."
         },
         {
-          "question": "¿El ojo seco se cura?",
+          "question": "P: ¿El ojo seco se cura?",
           "answer": "Es una condición crónica que se controla. Con el tratamiento adecuado, modificando hábitos y manteniendo lubricados los ojos, los síntomas desaparecen y se protege la salud de la córnea."
         }
       ],
@@ -1016,11 +1022,11 @@
       ],
       "faqs": [
         {
-          "question": "¿Qué debo hacer si sospecho de una úlcera corneal?",
-          "answer": "Debes acudir a urgencias de oftalmología de inmediato. Retira cualquier lente de contacto y no te apliques gotas automedicadas (especialmente cortisona, que puede agravar la infección severamente)."
+          "question": "P: ¿Qué debo hacer si sospecho de una úlcera corneal?",
+          "answer": "Debes acudir a urgencias de oftalmología de inmediato. Retira cualquier lente de contacto y no te apliques gotas automedicadas (especialmente corticoides, que pueden agravar la infección severamente)."
         },
         {
-          "question": "¿Una úlcera corneal deja cicatriz?",
+          "question": "P: ¿Una úlcera corneal deja cicatriz?",
           "answer": "Si la úlcera es profunda y se ubica en el centro de la córnea, al sanar suele dejar una cicatriz blanca (leucoma). Dependiendo de su tamaño, puede requerir una cirugía posterior o trasplante de córnea para recuperar la visión."
         }
       ],
@@ -1051,7 +1057,7 @@
       "slug": "glaucoma",
       "name": "Glaucoma",
       "technicalName": "Glaucoma de Ángulo Abierto y Cerrado",
-      "description": "El glaucoma es una afección del nervio óptico caracterizada comúnmente por una presión intraocular elevada. Al dañar las fibras nerviosas que transmiten las imágenes al cerebro, provoca una pérdida progresiva de la visión periférica. Se le conoce como el 'ladrón silencioso de la vista' porque no causa dolor ni síntomas evidentes en sus inicios, y la pérdida visual es irreversible.",
+      "description": "El glaucoma es un desgaste progresivo del nervio óptico. Al dañar las fibras nerviosas que transmiten las imágenes al cerebro, provoca una pérdida progresiva de la visión periférica. Puede acompañarse de presión intraocular elevada. Se le conoce como el 'ladrón silencioso de la vista' porque no causa dolor ni síntomas evidentes en sus inicios, y la pérdida visual es irreversible.",
       "symptoms": [
         "Pérdida gradual de la visión periférica o lateral (visión en túnel)",
         "Dolor ocular agudo repentino (en crisis de glaucoma de ángulo cerrado)",
@@ -1060,18 +1066,19 @@
       ],
       "causes": [
         "Falla en el sistema de drenaje natural del ojo (humor acuoso)",
-        "Elevación de la presión intraocular que comprime el nervio óptico",
-        "Mala perfusión o flujo sanguíneo deficiente al nervio"
+        "Elevación de la presión intraocular",
+        "Mala perfusión o flujo sanguíneo deficiente al nervio óptico"
       ],
       "riskFactors": [
         "Presión intraocular elevada",
         "Edad mayor a los 40 años",
         "Antecedentes familiares directos de glaucoma",
-        "Miopía o hipermetropía alta, o diabetes mellitus"
+        "Miopía o hipermetropía alta, o diabetes mellitus",
+        "Traumatismos oculares previos"
       ],
       "mexicoStats": "El glaucoma es la segunda causa de ceguera irreversible en México. Se calcula que más del 50% de quienes lo padecen no están diagnosticados por falta de chequeos anuales.",
       "complications": [
-        "Pérdida permanente e irreversible del campo visual lateral",
+        "Pérdida permanente e irreversible del campo visual periférica",
         "Ceguera total si no se controla adecuadamente"
       ],
       "treatments": [
@@ -1081,11 +1088,11 @@
       ],
       "faqs": [
         {
-          "question": "¿El glaucoma se puede curar?",
+          "question": "P: ¿El glaucoma se puede curar?",
           "answer": "No tiene cura y la visión perdida no se recupera, pero se puede controlar con gran éxito mediante gotas o cirugía para detener el avance y preservar la visión restante."
         },
         {
-          "question": "¿Cómo se detecta?",
+          "question": "P: ¿Cómo se detecta?",
           "answer": "Se detecta mediante una consulta completa donde se mide la presión del ojo (tonometría), se revisa el nervio óptico bajo dilatación de pupila y se realizan campos visuales y tomografía del nervio (OCT)."
         }
       ],
@@ -1122,7 +1129,7 @@
         "Pérdida de la visión central o áreas oscuras en el campo visual"
       ],
       "causes": [
-        "Daño microvascular retiniano causado por niveles crónicamente altos de glucosa (retinopatía)",
+        "Daño microvascular retiniano causado por niveles crónicamente altos de glucosa (retinopatía) o de presión arterial",
         "Reacciones autoinmunes, infecciones (toxoplasmosis, tuberculosis) o traumas (uveítis)"
       ],
       "riskFactors": [
@@ -1143,12 +1150,12 @@
       ],
       "faqs": [
         {
-          "question": "¿Cada cuánto debe revisarse los ojos un paciente diabético?",
+          "question": "P: ¿Cada cuánto debe revisarse los ojos un paciente diabético?",
           "answer": "Todo paciente con diabetes debe someterse a una revisión de fondo de ojo con pupila dilatada al menos una vez al año, incluso si considera que ve perfectamente."
         },
         {
-          "question": "¿Qué es la uveítis?",
-          "answer": "Es la inflamación interna del ojo. A diferencia de una conjuntivitis común, la uveítis compromete estructuras internas y puede causar daño severo permanente si no se trata rápido con gotas esteroideas."
+          "question": "P: ¿Qué es la uveítis?",
+          "answer": "Es la inflamación interna del ojo. A diferencia de una conjuntivitis común, la uveítis compromete estructuras internas y puede causar daño severo permanente si no se trata con prontitud."
         }
       ],
       "sources": [],
@@ -1198,7 +1205,8 @@
       "complications": [
         "Afectación de la córnea (queratitis) en casos bacterianos graves no tratados",
         "Infección crónica por el frotamiento persistente que puede dañar la córnea",
-        "Disminución temporal de la visión si la secreción ocular es abundante"
+        "Disminución temporal de la visión si la secreción ocular es abundante",
+        "Cicatrices en la conjuntiva y en la córnea"
       ],
       "treatments": [
         "Uso de lubricantes oculares (lágrimas artificiales) frías para aliviar la irritación",
@@ -1207,15 +1215,15 @@
       ],
       "faqs": [
         {
-          "question": "¿Cómo puedo evitar contagiar la conjuntivitis a mi familia?",
+          "question": "P: ¿Cómo puedo evitar contagiar la conjuntivitis a mi familia?",
           "answer": "Lávate las manos frecuentemente con agua y jabón, no te frotes los ojos, utiliza toallas y fundas de almohada individuales y cámbialas a diario. Suspende temporalmente el uso de maquillaje y lentes de contacto."
         },
         {
-          "question": "¿Cuál es la diferencia entre la conjuntivitis alérgica y la infecciosa?",
-          "answer": "La alérgica suele afectar a ambos ojos simultáneamente, produce una comezón intensa y secreción acuosa o hialina. La infecciosa puede empezar en un solo ojo, suele acompañarse de secreción espesa amarillenta o verdosa (lagañas) y es muy contagiosa."
+          "question": "P: ¿Cuál es la diferencia entre la conjuntivitis alérgica y la infecciosa?",
+          "answer": "La alérgica produce una comezón intensa y secreción acuosa o hialina. La infecciosa puede empezar en un solo ojo, suele acompañarse de secreción espesa amarillenta o verdosa (lagañas) y es muy contagiosa."
         },
         {
-          "question": "¿Es bueno usar gotas de manzanilla para la conjuntivitis?",
+          "question": "P: ¿Es bueno usar gotas de manzanilla para la conjuntivitis?",
           "answer": "No se recomienda el uso de remedios caseros como té de manzanilla, ya que no son estériles y pueden introducir bacterias, hongos o partículas de plantas al ojo, empeorando la inflamación o causando una infección secundaria grave."
         }
       ],

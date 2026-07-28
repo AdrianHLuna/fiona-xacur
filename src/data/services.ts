@@ -5,15 +5,15 @@ export const services: MedicalService[] = [
     "id": "serv-consulta-general",
     "slug": "consulta-oftalmologica-general",
     "name": "Consulta Oftalmológica General y Subsecuente",
-    "description": "Evaluación clínica completa de la agudeza visual y la salud ocular, que incluye graduación digital de lentes, toma de presión intraocular y examen detallado de fondo de ojo.",
+    "description": "Evaluación clínica completa de la agudeza visual y la salud ocular, que incluye graduación de lentes, toma de presión intraocular , biomicroscopía y examen de fondo de ojo.",
     "longDescription": "La consulta oftalmológica general realizada por la Dra. Fiona Xacur evalúa minuciosamente el estado de salud de tus ojos. Incluye la medición digital de tu agudeza visual, examen con lámpara de hendidura de las estructuras del ojo (córnea, iris, conjuntiva), tonometría para medir la presión intraocular (previniendo el glaucoma), y la exploración bajo dilatación pupilar de tu retina y nervio óptico. Es vital para detectar de manera temprana padecimientos que ponen en riesgo tu visión.",
     "type": "consultorio",
-    "anesthesiaType": "Gotas dilatadoras y anestésicas (si se requiere tonometría)",
+    "anesthesiaType": "Gotas dilatadoras y anestésicas (si se requiere)",
     "duration": "30 a 45 minutos",
     "recoveryTime": "Inmediata (se sugiere llevar lentes de sol por la dilatación pupilar)",
     "isPainful": false,
     "benefits": [
-      "Precisión absoluta en la graduación de tus lentes",
+      "Precisión en la graduación de tus lentes",
       "Detección y tratamiento oportuno de enfermedades oculares asintomáticas",
       "Descarte y control de presión intraocular elevada (glaucoma)",
       "Evaluación experta de la córnea y la superficie ocular"
@@ -21,11 +21,12 @@ export const services: MedicalService[] = [
     "postOpRecommendations": [
       "Traer lentes de sol para mitigar la luz solar a la salida de la consulta debido a las gotas dilatadoras.",
       "Evitar conducir vehículos en las siguientes 3 a 4 horas tras la dilatación de pupila.",
-      "Presentar tus anteojos de uso habitual para comparar tu visión."
+      "Presentar tus anteojos de uso habitual para comparar tu visión.",
+      "Dentro de lo posible, acudir sin maquillaje en los ojos."
     ],
     "priceRange": "$1,000 MXN",
     "technicalSpecs": {
-      "Equipos": "Autorefractómetro digital Nidek, Lámpara de hendidura con fotografía, Tonómetro de aplanamiento Goldmann",
+      "Equipos": "Autorefractómetro digital Nidek, Lámpara de hendidura con fotografía, Tonómetro de mínimo contacto icare",
       "Indicación": "Chequeo visual anual recomendado para niños, adultos y pacientes diabéticos"
     },
     "relatedConditions": [
@@ -51,10 +52,10 @@ export const services: MedicalService[] = [
     "id": "serv-adaptacion-lentes-esclerales",
     "slug": "adaptacion-lentes-esclerales",
     "name": "Adaptación de Lentes de Contacto Esclerales",
-    "description": "Estudio y adaptación personalizada de lentes esclerales rígidos permeables al gas, diseñados para regularizar la córnea y devolver la agudeza visual en queratocono o córneas irregulares.",
-    "longDescription": "La adaptación de lentes esclerales es un procedimiento altamente especializado enfocado en pacientes con córneas sumamente irregulares, queratocono avanzado o sequedad ocular extrema. A diferencia de los lentes de contacto rígidos tradicionales, el lente escleral es más grande y se apoya en la esclera (la parte blanca del ojo), pasando por encima de la córnea sin tocarla. El espacio intermedio se llena con solución salina estéril, creando una superficie refractiva perfecta que proporciona una visión nítida excepcional y alivio de síntomas de ojo seco.",
+    "description": "Estudio y adaptación personalizada de lentes esclerales rígidos permeables al gas, diseñados para mejorar la agudeza visual en queratocono o córneas irregulares.",
+    "longDescription": "La adaptación de lentes esclerales es un procedimiento altamente especializado enfocado en pacientes con córneas sumamente irregulares, queratocono avanzado o sequedad ocular extrema. A diferencia de los lentes de contacto rígidos tradicionales, el lente escleral es más grande y se apoya en la esclera (la parte blanca del ojo), pasando por encima de la córnea sin tocarla. El espacio intermedio se llena con solución salina estéril, creando una superficie refractiva regular que proporciona una visión nítida excepcional y alivio de síntomas de ojo seco.",
     "type": "consultorio",
-    "anesthesiaType": "Ninguna",
+    "anesthesiaType": "Gotas anestésicas de tetracaína",
     "duration": "60 minutos",
     "recoveryTime": "Inmediata",
     "isPainful": false,
@@ -68,7 +69,7 @@ export const services: MedicalService[] = [
       "La consulta incluye la manipulación con lentes de prueba en consultorio para evaluar la adaptación óptima.",
       "El costo cubre la consulta de adaptación y pruebas; no incluye el costo de fabricación de los lentes personalizados."
     ],
-    "priceRange": "$1,000 MXN (Consulta de adaptación)",
+    "priceRange": "$1,000 MXN (Consulta de adaptación) + $2,000 (topografía de la córnea)",
     "technicalSpecs": {
       "Estudio": "Prueba de lentes esclerales de diagnóstico, mapeo topográfico corneal",
       "Material del lente": "Polímero rígido altamente permeable al oxígeno (gas permeable)"
@@ -94,10 +95,10 @@ export const services: MedicalService[] = [
     "id": "serv-valoracion-cirugia-lasik",
     "slug": "valoracion-cirugia-lasik",
     "name": "Valoración para Cirugía Refractiva Láser (LASIK)",
-    "description": "Protocolo diagnóstico para determinar la candidatura del paciente a cirugía refractiva láser LASIK o PRK, que incluye topografía corneal avanzada y paquimetría ultrasónica.",
-    "longDescription": "Antes de realizar una cirugía refractiva láser para corregir miopía, astigmatismo o hipermetropía, es indispensable realizar una valoración minuciosa de la córnea. Este servicio incluye una consulta clínica detallada, una topografía corneal digitalizada (para mapear el relieve, curvatura y regularidad de la córnea) y una paquimetría (medición ultrasónica del grosor corneal). Con estos estudios, la Dra. Fiona Xacur determina si la córnea del paciente tiene las condiciones ideales de grosor y forma para someterse a la remodelación con el láser excímer SCHWIND AMARIS 500E de forma 100% segura, descartando enfermedades como el queratocono subclínico.",
+    "description": "Protocolo diagnóstico para determinar la candidatura del paciente a cirugía refractiva láser LASIK o PRK, que incluye topografía corneal avanzada y paquimetría.",
+    "longDescription": "Antes de realizar una cirugía refractiva láser para corregir miopía, astigmatismo o hipermetropía, es indispensable realizar una valoración minuciosa de la córnea. Este servicio incluye una consulta clínica detallada, una topografía corneal digitalizada (para mapear el relieve, curvatura y regularidad de la córnea) y una paquimetría (medición del grosor corneal). Con estos estudios, la Dra. Fiona Xacur determina si la córnea del paciente tiene las condiciones ideales de grosor y forma para someterse a la remodelación con el láser excímer SCHWIND AMARIS 500E de forma 100% segura, descartando enfermedades como el queratocono subclínico.",
     "type": "consultorio",
-    "anesthesiaType": "Anestesia tópica en gotas para la toma de paquimetría",
+    "anesthesiaType": "Anestesia tópica en gotas",
     "duration": "45 a 60 minutos",
     "recoveryTime": "Inmediata",
     "isPainful": false,
@@ -110,7 +111,7 @@ export const services: MedicalService[] = [
       "Suspender el uso de lentes de contacto blandos al menos 7 a 10 días antes del estudio (15 días si son rígidos).",
       "Llevar lentes oscuros por la dilatación pupilar de la consulta."
     ],
-    "priceRange": "Consulta de valoración con estudios incluidos",
+    "priceRange": "Consulta de valoración con estudios incluidos $2,500-3,100",
     "technicalSpecs": {
       "Estudios incluidos": "Topografía corneal computarizada, Paquimetría de espesor corneal",
       "Tecnología Láser": "Láser Excímer SCHWIND AMARIS 500E",
@@ -137,7 +138,7 @@ export const services: MedicalService[] = [
     "slug": "valoracion-cirugia-catarata",
     "name": "Valoración para Cirugía de Catarata",
     "description": "Estudio integral para planificar la cirugía de catarata, que incluye el cálculo del lente intraocular por interferometría óptica y el conteo de células endoteliales de la córnea.",
-    "longDescription": "La valoración preoperatoria para cirugía de catarata es fundamental para garantizar el éxito visual. Este protocolo incluye el cálculo de precisión del lente intraocular (LIO) mediante interferometría láser, que determina la potencia del lente que reemplazará el cristalino dañado. Asimismo, se realiza un conteo celular endotelial por microscopía especular, que evalúa la salud y densidad de la capa interna de la córnea para asegurar que ésta tolere el procedimiento quirúrgico de facoemulsificación con la mayor seguridad y sin riesgos de descompensación posterior.",
+    "longDescription": "La valoración preoperatoria para cirugía de catarata es fundamental para garantizar el éxito visual. Este protocolo incluye el cálculo de precisión del lente intraocular (LIO) mediante interferometría, que determina la potencia del lente que reemplazará el cristalino dañado. Asimismo, se realiza un conteo celular endotelial por microscopía especular, que evalúa la salud y densidad de la capa interna de la córnea para asegurar que ésta tolere el procedimiento quirúrgico de facoemulsificación con la mayor seguridad y sin riesgos de descompensación posterior.",
     "type": "consultorio",
     "anesthesiaType": "Ninguna",
     "duration": "45 a 60 minutos",
@@ -152,7 +153,7 @@ export const services: MedicalService[] = [
       "No requiere preparación previa especial.",
       "Traer recetas previas de anteojos y estudios generales si cuenta con ellos."
     ],
-    "priceRange": "Consulta de valoración con cálculo e interferometría",
+    "priceRange": "Consulta de valoración con cálculo de lente intraocular por interferometría y conteo celular endotelial por microscopía especular $3,800-5,300",
     "technicalSpecs": {
       "Estudios incluidos": "Biometría ocular por interferometría láser, Conteo celular endotelial (Microscopía especular)",
       "Tecnología": "Cálculo de lente intraocular de última generación"
@@ -186,13 +187,13 @@ export const services: MedicalService[] = [
     "benefits": [
       "Diagnóstico precoz del queratocono antes de que dañe severamente la visión",
       "Detección exacta de la progresión de la ectasia corneal comparando estudios previos",
-      "Determinación del tratamiento óptimo (crosslinking, anillos o lentes esclerales)"
+      "Determinación del tratamiento óptimo (lentes esclerales, crosslinking, anillos o trasplante de córnea)"
     ],
     "postOpRecommendations": [
       "En caso de usar lentes de contacto, suspender su uso antes de la cita según indicación médica.",
       "Asistir con estudios topográficos previos para poder realizar análisis comparativos de progresión."
     ],
-    "priceRange": "Consulta de valoración especializada con topografía y paquimetría",
+    "priceRange": "Consulta de valoración especializada con topografía y paquimetría $1,000-$3000",
     "technicalSpecs": {
       "Estudios incluidos": "Topografía corneal digitalizada, Paquimetría de mapa corneal",
       "Indicación": "Pacientes diagnosticados o con sospecha de queratocono por astigmatismo irregular"

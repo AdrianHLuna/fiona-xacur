@@ -24,7 +24,7 @@ const CertificationSchema = z.object({
 const EducationSchema = z.object({
  degree: z.string(),
  institution: z.string(),
- year: z.string(),
+ year: z.string().optional(),
 });
 
 const FAQItemSchema = z.object({
