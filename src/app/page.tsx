@@ -129,7 +129,7 @@ export default function Home() {
               >
                 <img 
                   src="/hero.webp" 
-                  alt="Dra. Fiona Carolina Xacur García - Cirujana Oftalmóloga" 
+                  alt="Dra. Fiona Xacur - Cirujana Oftalmóloga" 
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-cyan-950/20 pointer-events-none" />
@@ -192,13 +192,13 @@ export default function Home() {
               <div className="aspect-[3/4] bg-slate-900 border border-cyan-500/20 rounded-[2.5rem] shadow-2xl flex items-center justify-center sticky top-32 group overflow-hidden relative">
                 <img 
                   src="/aboutme.webp" 
-                  alt="Dra. Fiona Carolina Xacur García - Especialista en Córnea y Cirugía Refractiva" 
+                  alt="Dra. Fiona Xacur - Especialista en Córnea y Cirugía Refractiva" 
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/20 to-transparent pointer-events-none" />
                 <div className="absolute bottom-6 left-6 right-6 p-4 rounded-2xl bg-slate-950/80 border border-cyan-500/20 backdrop-blur-md text-center">
                   <p className="text-slate-400 font-mono text-[10px] uppercase tracking-widest mb-1">Tecnología & Atención</p>
-                  <p className="text-slate-100 font-bold text-sm">Dra. Fiona Carolina Xacur García</p>
+                  <p className="text-slate-100 font-bold text-sm">Dra. Fiona Xacur</p>
                   <div className="w-12 h-[1px] bg-cyan-500/30 my-2 mx-auto" />
                   <p className="text-cyan-400 text-xs font-medium">Alta Especialidad en Córnea y Cirugía Refractiva</p>
                 </div>

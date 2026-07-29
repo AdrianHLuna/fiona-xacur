@@ -6,7 +6,7 @@ import { FaShieldAlt } from "react-icons/fa";
 
 export const metadata = {
   title: "Síntomas y Señales de Alerta Visual | Dra. Fiona Xacur",
-  description: "Conoce los síntomas de alerta ocular (ojo rojo, visión borrosa, carnosidad o dolor en el ojo) que requieren valoración por la Dra. Fiona Carolina Xacur García.",
+  description: "Conoce los síntomas de alerta ocular (ojo rojo, visión borrosa, carnosidad o dolor en el ojo) que requieren valoración por la Dra. Fiona Xacur.",
 };
 
 export default function SintomasPage() {

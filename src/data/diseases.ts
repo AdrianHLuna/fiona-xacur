@@ -58,7 +58,7 @@ export const diseases: MedicalCondition[] = [
     "image": "/enfermedades/miopia-astigmatismo.png",
     "seo": {
       "title": "Cirugía Láser de Miopía y Astigmatismo Mérida | Dra. Fiona Xacur",
-      "description": "Deshazte de los lentes. Especialista en cirugía refractiva láser LASIK en Mérida. Dra. Fiona Carolina Xacur García. Consulta de valoración.",
+      "description": "Deshazte de los lentes. Especialista en cirugía refractiva láser LASIK en Mérida. Dra. Fiona Xacur. Consulta de valoración.",
       "keywords": [
         "cirugía LASIK Mérida",
         "quitar lentes láser",
@@ -119,7 +119,7 @@ export const diseases: MedicalCondition[] = [
     "image": "/enfermedades/hipermetropia-presbicia.png",
     "seo": {
       "title": "Tratamiento de Presbicia y Vista Cansada Mérida | Dra. Fiona",
-      "description": "Soluciones modernas para la vista cansada e hipermetropía en Mérida. Recupere su visión de lectura con la Dra. Fiona Carolina Xacur García.",
+      "description": "Soluciones modernas para la vista cansada e hipermetropía en Mérida. Recupere su visión de lectura con la Dra. Fiona Xacur.",
       "keywords": [
         "vista cansada Mérida",
         "hipermetropía ginecólogo",
@@ -183,7 +183,7 @@ export const diseases: MedicalCondition[] = [
     "image": "/enfermedades/pterigion.png",
     "seo": {
       "title": "Cirugía de Carnosidad Ocular (Pterigión) Mérida | Dra. Fiona",
-      "description": "Tratamiento definitivo para pterigión en Mérida. Cirugía moderna con autoinjerto para evitar recurrencias por la Dra. Fiona Carolina Xacur García.",
+      "description": "Tratamiento definitivo para pterigión en Mérida. Cirugía moderna con autoinjerto para evitar recurrencias por la Dra. Fiona Xacur.",
       "keywords": [
         "carnosidad en el ojo Mérida",
         "cirugía de pterigión Mérida",
@@ -248,8 +248,8 @@ export const diseases: MedicalCondition[] = [
     ],
     "image": "/enfermedades/cataratas.png",
     "seo": {
-      "title": "Cirugía de Catarata en Mérida | Dra. Fiona Carolina Xacur",
-      "description": "Recupere su visión nítida. Especialista en cirugía de catarata con implante de lente intraocular en Mérida. Dra. Fiona Carolina Xacur García.",
+      "title": "Cirugía de Catarata en Mérida | Dra. Fiona Xacur",
+      "description": "Recupere su visión nítida. Especialista en cirugía de catarata con implante de lente intraocular en Mérida. Dra. Fiona Xacur.",
       "keywords": [
         "operación de cataratas Mérida",
         "lente intraocular costo Mérida",
@@ -314,7 +314,7 @@ export const diseases: MedicalCondition[] = [
     "image": "/enfermedades/queratocono.png",
     "seo": {
       "title": "Especialista en Queratocono en Mérida | Dra. Fiona Xacur",
-      "description": "Diagnóstico y tratamiento avanzado para queratocono en Mérida. Adaptación de lentes esclerales y crosslinking. Dra. Fiona Carolina Xacur García.",
+      "description": "Diagnóstico y tratamiento avanzado para queratocono en Mérida. Adaptación de lentes esclerales y crosslinking. Dra. Fiona Xacur.",
       "keywords": [
         "tratamiento de queratocono Mérida",
         "lentes esclerales Mérida",
@@ -387,7 +387,7 @@ export const diseases: MedicalCondition[] = [
     "image": "/enfermedades/ojoseco.png",
     "seo": {
       "title": "Tratamiento de Ojo Seco y Blefaritis Mérida | Dra. Fiona",
-      "description": "Alivia el ardor y la resequedad ocular. Especialista en diagnóstico y tratamiento integral de ojo seco en Mérida. Dra. Fiona Carolina Xacur García.",
+      "description": "Alivia el ardor y la resequedad ocular. Especialista en diagnóstico y tratamiento integral de ojo seco en Mérida. Dra. Fiona Xacur.",
       "keywords": [
         "ojo seco Mérida",
         "ardor en los ojos Mérida",
@@ -455,7 +455,7 @@ export const diseases: MedicalCondition[] = [
     "image": "/enfermedades/ulceras.png",
     "seo": {
       "title": "Urgencias de Úlceras Corneales y Queratitis Mérida | Dra. Fiona",
-      "description": "Atención inmediata para úlceras de córnea e infecciones oculares en Mérida. Cuidado especializado por la Dra. Fiona Carolina Xacur García.",
+      "description": "Atención inmediata para úlceras de córnea e infecciones oculares en Mérida. Cuidado especializado por la Dra. Fiona Xacur.",
       "keywords": [
         "úlcera corneal Mérida",
         "dolor de ojo agudo",
@@ -519,7 +519,7 @@ export const diseases: MedicalCondition[] = [
     "image": "/enfermedades/glaucoma.png",
     "seo": {
       "title": "Diagnóstico y Control de Glaucoma en Mérida | Dra. Fiona Xacur",
-      "description": "Protege tu visión del ladrón silencioso. Diagnóstico preciso y tratamiento oportuno de glaucoma en Mérida con la Dra. Fiona Carolina Xacur García.",
+      "description": "Protege tu visión del ladrón silencioso. Diagnóstico preciso y tratamiento oportuno de glaucoma en Mérida con la Dra. Fiona Xacur.",
       "keywords": [
         "glaucoma Mérida",
         "presión del ojo alta",
@@ -582,7 +582,7 @@ export const diseases: MedicalCondition[] = [
     "image": "/enfermedades/retinopatia.png",
     "seo": {
       "title": "Tratamiento de Retinopatía Diabética Mérida | Dra. Fiona Xacur",
-      "description": "Especialista en prevención y control de retinopatía diabética y uveítis en Mérida. Cuide su fondo de ojo con la Dra. Fiona Carolina Xacur García.",
+      "description": "Especialista en prevención y control de retinopatía diabética y uveítis en Mérida. Cuide su fondo de ojo con la Dra. Fiona Xacur.",
       "keywords": [
         "retinopatía diabética Mérida",
         "uveítis tratamiento Mérida",
@@ -651,7 +651,7 @@ export const diseases: MedicalCondition[] = [
     "image": "/enfermedades/conjuntivitis.png",
     "seo": {
       "title": "Tratamiento de Conjuntivitis y Alergias Oculares Mérida | Dra. Fiona",
-      "description": "Alivio para ojos rojos y comezón. Diagnóstico y tratamiento de conjuntivitis alérgica e infecciosa en Mérida con la Dra. Fiona Carolina Xacur García.",
+      "description": "Alivio para ojos rojos y comezón. Diagnóstico y tratamiento de conjuntivitis alérgica e infecciosa en Mérida con la Dra. Fiona Xacur.",
       "keywords": [
         "conjuntivitis Mérida",
         "ojo rojo con lagañas Mérida",

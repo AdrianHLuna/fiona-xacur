@@ -51,7 +51,7 @@ export const symptoms: Symptom[] = [
     "image": "/sintomas/vision-borrosa.png",
     "seo": {
       "title": "Visión Borrosa Causas y Tratamiento Mérida | Dra. Fiona",
-      "description": "Causas comunes de la visión borrosa como miopía, astigmatismo o cataratas. Agenda tu examen de la vista en Mérida con la Dra. Fiona Carolina Xacur.",
+      "description": "Causas comunes de la visión borrosa como miopía, astigmatismo o cataratas. Agenda tu examen de la vista en Mérida con la Dra. Fiona Xacur.",
       "keywords": [
         "ver borroso Mérida",
         "visión borrosa de lejos Mérida",
@@ -76,7 +76,7 @@ export const symptoms: Symptom[] = [
     "image": "/sintomas/carnosidad.png",
     "seo": {
       "title": "Carnosidad en el Ojo (Pterigión) Mérida | Dra. Fiona",
-      "description": "Síntomas y opciones de tratamiento para la carnosidad en el ojo (pterigión) en Mérida con la Dra. Fiona Carolina Xacur García.",
+      "description": "Síntomas y opciones de tratamiento para la carnosidad en el ojo (pterigión) en Mérida con la Dra. Fiona Xacur.",
       "keywords": [
         "carnosidad en el ojo Mérida",
         "pterigión síntomas",
@@ -103,7 +103,7 @@ export const symptoms: Symptom[] = [
     "image": "/sintomas/resequedad.png",
     "seo": {
       "title": "Resequedad y Ardor en los Ojos Mérida | Dra. Fiona Xacur",
-      "description": "Alivia el ojo seco. Diagnóstico y tratamiento de la resequedad ocular en Mérida con la Dra. Fiona Carolina Xacur García.",
+      "description": "Alivia el ojo seco. Diagnóstico y tratamiento de la resequedad ocular en Mérida con la Dra. Fiona Xacur.",
       "keywords": [
         "ojo seco Mérida",
         "ardor en los ojos Mérida",
@@ -131,7 +131,7 @@ export const symptoms: Symptom[] = [
     "image": "/sintomas/dolor-ocular.png",
     "seo": {
       "title": "Urgencias por Dolor Ocular Mérida | Dra. Fiona Xacur",
-      "description": "Atención especializada para dolor en el ojo en Mérida. Descarte queratitis, úlceras o glaucoma con la Dra. Fiona Carolina Xacur García.",
+      "description": "Atención especializada para dolor en el ojo en Mérida. Descarte queratitis, úlceras o glaucoma con la Dra. Fiona Xacur.",
       "keywords": [
         "dolor de ojo Mérida",
         "presión en el ojo Mérida",
@@ -159,7 +159,7 @@ export const symptoms: Symptom[] = [
     "image": "/sintomas/sensacion-cuerpo-extrano.png",
     "seo": {
       "title": "Sensación de Cuerpo Extraño en el Ojo Mérida | Dra. Fiona",
-      "description": "Qué hacer ante la sensación de basura o arenilla en los ojos. Consulta de oftalmología en Mérida con la Dra. Fiona Carolina Xacur García.",
+      "description": "Qué hacer ante la sensación de basura o arenilla en los ojos. Consulta de oftalmología en Mérida con la Dra. Fiona Xacur.",
       "keywords": [
         "basura en el ojo Mérida",
         "arenilla en los ojos",
@@ -186,7 +186,7 @@ export const symptoms: Symptom[] = [
     "image": "/sintomas/distorsionada.png",
     "seo": {
       "title": "Visión Ondulada u Deformada Mérida | Dra. Fiona Xacur",
-      "description": "Diagnóstico de visión distorsionada u ondulada en Mérida. Descarte queratocono o daño en la mácula con la Dra. Fiona Carolina Xacur García.",
+      "description": "Diagnóstico de visión distorsionada u ondulada en Mérida. Descarte queratocono o daño en la mácula con la Dra. Fiona Xacur.",
       "keywords": [
         "ver líneas onduladas Mérida",
         "visión distorsionada Mérida",
@@ -214,7 +214,7 @@ export const symptoms: Symptom[] = [
     "image": "/sintomas/lagrimeo.png",
     "seo": {
       "title": "Causas de Lagrimeo Constante en los Ojos Mérida | Dra. Fiona",
-      "description": "¿Ojos llorosos todo el tiempo? Conoce causas como ojo seco o conductos obstruidos. Consulta con la Dra. Fiona Carolina Xacur García en Mérida.",
+      "description": "¿Ojos llorosos todo el tiempo? Conoce causas como ojo seco o conductos obstruidos. Consulta con la Dra. Fiona Xacur en Mérida.",
       "keywords": [
         "lagrimeo constante Mérida",
         "ojos llorosos causas",

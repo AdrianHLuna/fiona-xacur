@@ -6,7 +6,7 @@ import { FaGlasses, FaEye, FaMicroscope } from "react-icons/fa";
 
 export const metadata = {
   title: "Procedimientos y Estudios Oftalmológicos | Dra. Fiona Xacur",
-  description: "Tratamientos avanzados en Mérida: adaptación de lentes esclerales, valoración para cirugía LASIK, catarata y queratocono con la Dra. Fiona Carolina Xacur García.",
+  description: "Tratamientos avanzados en Mérida: adaptación de lentes esclerales, valoración para cirugía LASIK, catarata y queratocono con la Dra. Fiona Xacur.",
 };
 
 export default function ServiciosPage() {

@@ -4,7 +4,7 @@ import { FaMapMarkerAlt, FaClock, FaPhone, FaWhatsapp } from "react-icons/fa";
 import { FadeUp, StaggerContainer, StaggerItem } from "@/components/Animations";
 
 export const metadata = {
-  title: "Contacto y Ubicación | Dra. Fiona Carolina Xacur García",
+  title: "Contacto y Ubicación | Dra. Fiona Xacur",
   description: "Encuentra nuestros consultorios en Cliniteq y Medytec en Mérida, Yucatán, y agenda una valoración de oftalmología.",
 };
 

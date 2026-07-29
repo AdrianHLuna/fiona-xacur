@@ -38,7 +38,7 @@ export const services: MedicalService[] = [
     ],
     "image": "/servicios/consulta.png",
     "seo": {
-      "title": "Consulta Oftalmológica en Mérida | Dra. Fiona Xacur García",
+      "title": "Consulta Oftalmológica en Mérida | Dra. Fiona Xacur",
       "description": "Agenda tu consulta oftalmológica integral en Mérida. Incluye examen de la vista, toma de presión y fondo de ojo. Costo: $1,000 MXN.",
       "keywords": [
         "oftalmólogo Mérida",
@@ -82,7 +82,7 @@ export const services: MedicalService[] = [
     "image": "/servicios/lentes-esclerales.png",
     "seo": {
       "title": "Adaptación de Lentes Esclerales Mérida | Dra. Fiona Xacur",
-      "description": "Especialista en adaptación de lentes esclerales en Mérida para queratocono y ojo seco. Recupere su visión con la Dra. Fiona Carolina Xacur García.",
+      "description": "Especialista en adaptación de lentes esclerales en Mérida para queratocono y ojo seco. Recupere su visión con la Dra. Fiona Xacur.",
       "keywords": [
         "lentes esclerales Mérida",
         "lentes para queratocono Mérida",
@@ -124,7 +124,7 @@ export const services: MedicalService[] = [
     "image": "/servicios/lasik.png",
     "seo": {
       "title": "Valoración para Cirugía Láser LASIK Mérida | Dra. Fiona Xacur",
-      "description": "Estudio completo de valoración para cirugía láser de ojos en Mérida. Incluye topografía corneal y paquimetría. Dra. Fiona Carolina Xacur García.",
+      "description": "Estudio completo de valoración para cirugía láser de ojos en Mérida. Incluye topografía corneal y paquimetría. Dra. Fiona Xacur.",
       "keywords": [
         "valoración LASIK Mérida",
         "topografía corneal Mérida",
@@ -164,7 +164,7 @@ export const services: MedicalService[] = [
     "image": "/servicios/catarata.png",
     "seo": {
       "title": "Cálculo de Lente Intraocular y Valoración Catarata Mérida",
-      "description": "Estudio de valoración de cataratas en Mérida. Incluye cálculo de lente intraocular por interferometría y conteo celular. Dra. Fiona Carolina Xacur García.",
+      "description": "Estudio de valoración de cataratas en Mérida. Incluye cálculo de lente intraocular por interferometría y conteo celular. Dra. Fiona Xacur.",
       "keywords": [
         "valoración catarata Mérida",
         "cálculo lente intraocular Mérida",
@@ -203,7 +203,7 @@ export const services: MedicalService[] = [
     ],
     "image": "/servicios/queratocono.png",
     "seo": {
-      "title": "Valoración de Queratocono en Mérida | Dra. Fiona Xacur García",
+      "title": "Valoración de Queratocono en Mérida | Dra. Fiona Xacur",
       "description": "Consulta especializada en queratocono en Mérida. Incluye mapeo corneal topográfico y paquimetría. Especialista en córnea Dra. Fiona Xacur.",
       "keywords": [
         "valoración queratocono Mérida",

@@ -6,7 +6,7 @@ import { FaEye } from "react-icons/fa";
 
 export const metadata = {
   title: "Enfermedades y Padecimientos Visuales | Dra. Fiona Xacur",
-  description: "Información médica sobre queratocono, cataratas, ojo seco, miopía y astigmatismo tratados por la Dra. Fiona Carolina Xacur García en Mérida.",
+  description: "Información médica sobre queratocono, cataratas, ojo seco, miopía y astigmatismo tratados por la Dra. Fiona Xacur en Mérida.",
 };
 
 export default function EnfermedadesPage() {
