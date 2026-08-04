@@ -92,5 +92,5 @@ export const doctor: DoctorProfile = {
   "sameAs": [
     "https://www.facebook.com/drafionaxacur"
   ],
-  "ga4Id": "G-XXXXXXXXXX"
+  "ga4Id": "G-D73GH40X78"
 };
