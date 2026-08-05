@@ -10,11 +10,28 @@ export const metadata: Metadata = {
   title: `${doctor.title} ${doctor.name} | ${doctor.specialty} en ${doctor.city}`,
   description: doctor.bio.substring(0, 150) + "...",
   keywords: [`Especialista en ${doctor.specialty} en ${doctor.city}`, `Oftalmólogo Mérida`, `Cirugía LASIK Mérida`, `Cirugía de Cataratas Mérida`, `Córnea y Cirugía Refractiva`],
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.png", type: "image/png", sizes: "512x512" },
+    ],
+    apple: [
+      { url: "/apple-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+  },
   openGraph: {
     title: `${doctor.title} ${doctor.name} | ${doctor.specialty}`,
     description: doctor.bio.substring(0, 150) + "...",
     url: "http://localhost:3000",
     siteName: `${doctor.title} ${doctor.name}`,
+    images: [
+      {
+        url: "/images/logo-horizontal.png",
+        width: 1048,
+        height: 489,
+        alt: `Logo ${doctor.title} ${doctor.name}`,
+      },
+    ],
     locale: "es_MX",
     type: "website",
   },
