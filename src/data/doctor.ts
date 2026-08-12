@@ -8,7 +8,7 @@ export const doctor: DoctorProfile = {
   "subspecialty": "Especialista en Córnea y Cirugía Refractiva (LASIK, Queratocono, Cataratas)",
   "cedula": "4281356",
   "cedulaEspecialidad": "6595302",
-  "cofepris": "En trámite",
+  "cofepris": "2631012002A00459",
   "phone": "9993107047",
   "whatsapp": "9993107047",
   "email": "contacto@drafionaxacur.com",
