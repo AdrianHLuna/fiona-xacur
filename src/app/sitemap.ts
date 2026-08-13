@@ -4,7 +4,7 @@ import { services } from "@/data/services";
 import { symptoms } from "@/data/symptoms";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.drafionaxacur.com";
 
   const diseaseUrls = diseases.map((d) => ({
     url: `${baseUrl}/enfermedades/${d.slug}`,
